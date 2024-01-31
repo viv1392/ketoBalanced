@@ -65,7 +65,7 @@ public class UserReWomenTest extends BaseTest {
 	ChoosePlan chooseplan;
 
 	 @Test(priority = 14)
-		public void userRegistrationMenNonVeg() throws Throwable {
+		public void userRegistrationWoMenNonVeg() throws Throwable {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
@@ -104,7 +104,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 15)
-		public void userRegistrationMenVeg() throws Throwable {
+		public void userRegistrationWoMenVeg() throws Throwable {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
@@ -142,7 +142,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 16)
-		public void userRegistrationMenVegan() throws Throwable {
+		public void userRegistrationWoMenVegan() throws Throwable {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
@@ -176,7 +176,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 17)
-		public void heightInFtNonVeg() throws InterruptedException {
+		public void heightInFtNonVegWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
@@ -216,7 +216,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 18)
-		public void heightInFtVeget() throws InterruptedException {
+		public void heightInFtVegetWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
@@ -254,7 +254,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 19)
-		public void heightInFeetvegan() throws InterruptedException {
+		public void heightInFeetveganWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
@@ -288,7 +288,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 20)
-		public void weightInLbsNonVeg() throws InterruptedException {
+		public void weightInLbsNonVegWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
@@ -327,7 +327,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 21)
-		public void weightLbsVeget() throws InterruptedException {
+		public void weightLbsVegetWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
@@ -366,7 +366,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 22)
-		public void weightLbsVegan() throws InterruptedException {
+		public void weightLbsVeganWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
@@ -400,7 +400,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 23)
-		public void userWithBlankdEmaiId() throws InterruptedException {
+		public void userWithBlankdEmaiIdWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
@@ -438,7 +438,7 @@ public class UserReWomenTest extends BaseTest {
 			chooseplan.choosePlan();
 		}
 		@Test(priority = 24)
-		public void withoutFakeruserRegistrationMenNonVeg() throws Throwable {
+		public void withoutFakeruserRegistrationMenNonVegWomen() throws Throwable {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
@@ -477,7 +477,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 25)
-		public void userRegistrationMenVegwitoutFaker() throws Throwable {
+		public void userRegistrationWoMenVegwitoutFaker() throws Throwable {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
@@ -515,7 +515,7 @@ public class UserReWomenTest extends BaseTest {
 		}
 
 		@Test(priority = 26)
-		public void witoutFakeruserRegistrationMenVegan() throws Throwable {
+		public void witoutFakeruserRegistrationWoMenVegan() throws Throwable {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
