@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utilities.MyListners"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="userRegistrationTest.UserReWomenTest">
+        <methods>
+          <include name="heightInFtNonVeg"/>
+          <include name="userRegistrationMenNonVeg"/>
+          <include name="userWithBlankdEmaiId"/>
+          <include name="landingPageUrl"/>
+          <include name="tearDown"/>
+          <include name="heightInFeetvegan"/>
+          <include name="heightInFtVeget"/>
+          <include name="userRegistrationMenVegan"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReWomenTest -->
+      <class name="userRegistrationTest.UserReMenTest">
+        <methods>
+          <include name="userWithBlankdEmaiId"/>
+          <include name="weightLbsVegan"/>
+          <include name="heightInFeetvegan"/>
+          <include name="userRegistrationMenVegan"/>
+          <include name="weightInLbsNonVeg"/>
+          <include name="userRegistrationMenNonVeg"/>
+          <include name="landingPageUrl"/>
+          <include name="tearDown"/>
+          <include name="userRegistrationMenVeg"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReMenTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

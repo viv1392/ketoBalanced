@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="userRegistrationTest.UserReMenTest">
+        <methods>
+          <include name="userWithBlankdEmaiId"/>
+          <include name="heightInFeetvegan"/>
+          <include name="userRegistrationMenNonVeg"/>
+          <include name="heightInFtNonVeg"/>
+          <include name="landingPageUrl"/>
+          <include name="tearDown"/>
+          <include name="userRegistrationMenVeg"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReMenTest -->
+      <class name="userRegistrationTest.UserReWomenTest">
+        <methods>
+          <include name="weightInLbsNonVeg"/>
+          <include name="userWithBlankdEmaiId"/>
+          <include name="weightLbsVegan"/>
+          <include name="landingPageUrl"/>
+          <include name="tearDown"/>
+          <include name="heightInFtVeget"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReWomenTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

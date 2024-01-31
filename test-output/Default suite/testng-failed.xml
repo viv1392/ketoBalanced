@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="userRegistrationTest.UserReMenTest">
+        <methods>
+          <include name="userWithBlankdEmaiId"/>
+          <include name="withoutFakeruserRegistrationMenNonVeg"/>
+          <include name="heightInFtVeget"/>
+          <include name="userRegistrationMenVegan"/>
+          <include name="userRegistrationMenVegwitoutFaker"/>
+          <include name="weightInLbsNonVeg"/>
+          <include name="userRegistrationMenNonVeg"/>
+          <include name="heightInFtNonVeg"/>
+          <include name="tearDown"/>
+          <include name="weightLbsVegan"/>
+          <include name="weightLbsVeget"/>
+          <include name="heightInFeetvegan"/>
+          <include name="witoutFakeruserRegistrationMenVegan"/>
+          <include name="landingPageUrl"/>
+          <include name="userRegistrationMenVeg"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReMenTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
