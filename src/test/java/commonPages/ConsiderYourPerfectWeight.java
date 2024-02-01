@@ -19,8 +19,6 @@ public class ConsiderYourPerfectWeight extends UtilisClass {
 	}
 	@FindBy(id="target_lb")
 	WebElement ele1;
-	@FindBy(xpath="//div[text()='kg']")
-	WebElement ele2;
 	@FindBy(id="target_kg")
 	WebElement ele3;
 	@FindBy(linkText="Continue")
@@ -37,7 +35,6 @@ public class ConsiderYourPerfectWeight extends UtilisClass {
 		return age;
 	}
 	public WhatIsYourAge tarWeightKG() {
-		ele2.click();
 		String x=fkr.number().digits(2);
 		int y=Integer.parseInt(x);
 		int z=100-y;
@@ -56,7 +53,6 @@ public class ConsiderYourPerfectWeight extends UtilisClass {
 		return age;
 	}
 	public WhatIsYourAge withoutFakertarWeightKG() {
-		ele2.click();
 		ele3.sendKeys("85");
 		Assert.assertEquals(msgScr, msg);
 		ele.click();
