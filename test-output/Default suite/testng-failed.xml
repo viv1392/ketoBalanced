@@ -5,21 +5,9 @@
     <classes>
       <class name="userRegistrationTest.UserReMenTest">
         <methods>
-          <include name="userWithBlankdEmaiId"/>
-          <include name="withoutFakeruserRegistrationMenNonVeg"/>
-          <include name="heightInFtVeget"/>
-          <include name="userRegistrationMenVegan"/>
-          <include name="userRegistrationMenVegwitoutFaker"/>
-          <include name="weightInLbsNonVeg"/>
           <include name="userRegistrationMenNonVeg"/>
-          <include name="heightInFtNonVeg"/>
-          <include name="tearDown"/>
-          <include name="weightLbsVegan"/>
-          <include name="weightLbsVeget"/>
-          <include name="heightInFeetvegan"/>
-          <include name="witoutFakeruserRegistrationMenVegan"/>
           <include name="landingPageUrl"/>
-          <include name="userRegistrationMenVeg"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReMenTest -->
     </classes>

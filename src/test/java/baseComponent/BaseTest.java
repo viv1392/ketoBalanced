@@ -7,8 +7,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 
+import commonPages.GenderSel;
 import commonPages.LandingPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ReadConfigFile;
@@ -23,6 +25,7 @@ public class BaseTest extends ReadConfigFile {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--incognito");
+			options.addArguments("--headless");
 			driver = new ChromeDriver(options);
 		}
 		if (browser.equalsIgnoreCase("edge")) {
@@ -42,8 +45,12 @@ public class BaseTest extends ReadConfigFile {
 		page = new LandingPage(driver);
 		return page;
 	}
-
+	@AfterTest
 	
+	public void performance() {
+	System.out.println("this is performance section");
+		
+	}
 
 	@AfterMethod
 	public void tearDown() {

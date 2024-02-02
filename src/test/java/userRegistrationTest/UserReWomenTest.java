@@ -69,7 +69,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantBulk();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -108,7 +108,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantCut();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -146,7 +146,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantFit();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -180,7 +180,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantBulk();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -220,7 +220,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantCut();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -258,7 +258,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantFit();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -292,7 +292,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantBulk();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -331,7 +331,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantCut();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -370,7 +370,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantFit();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -404,7 +404,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantBulk();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -442,7 +442,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantCut();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -481,7 +481,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type= gender.genderWomen();
 			desiredBody = type.choosebodyTypeEx();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantFit();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();
@@ -519,7 +519,7 @@ public class UserReWomenTest extends BaseTest {
 			gender = page.landingPage();
 			type=gender.genderWomen();
 			desiredBody = type.choosebodyTypeAv();
-			achieve = desiredBody.bodytypeYouWant();
+			achieve = desiredBody.bodytypeYouWantBulk();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
 			happy = zone.yourTargetZone();

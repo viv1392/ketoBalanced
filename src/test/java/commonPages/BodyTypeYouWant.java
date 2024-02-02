@@ -13,9 +13,25 @@ public class BodyTypeYouWant {
 		PageFactory.initElements(driver, this);
 	}
 	@FindBy(xpath="//span[text()='Bulk']")
-	WebElement ele;
-	public WantToAchieve bodytypeYouWant() {
-		ele.click();
+	WebElement ele1;
+	@FindBy(xpath="//span[text()='Cut']")
+	WebElement ele2;
+	@FindBy(xpath="//span[text()='Fit']")
+	WebElement ele3;
+	public WantToAchieve bodytypeYouWantBulk() {
+		ele1.click();
+		achieve=new WantToAchieve(driver);
+		return achieve;
+		
+	}
+	public WantToAchieve bodytypeYouWantCut() {
+		ele2.click();
+		achieve=new WantToAchieve(driver);
+		return achieve;
+		
+	}
+	public WantToAchieve bodytypeYouWantFit() {
+		ele3.click();
 		achieve=new WantToAchieve(driver);
 		return achieve;
 		
