@@ -35,11 +35,11 @@ public class ConsiderYourPerfectWeight extends UtilisClass {
 		return age;
 	}
 	public WhatIsYourAge tarWeightKG() {
-		String x=fkr.number().digits(2);
+		String x=fkr.number().digits(1);
 		int y=Integer.parseInt(x);
-		int z=100-y;
+		int z=110-y;
 		String k=Integer.toString(z);
-		ele3.sendKeys("85");
+		ele3.sendKeys(k);
 		Assert.assertEquals(msgScr, msg);
 		ele.click();
 		age=new WhatIsYourAge(driver);

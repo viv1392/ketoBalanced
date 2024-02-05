@@ -68,7 +68,6 @@ public class UserReMenTest extends BaseTest {
 	public void userRegistrationMenNonVeg() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeAv();
 		achieve = desiredBody.bodytypeYouWantBulk();
 		conti = achieve.wantToAchieve();
@@ -108,7 +107,6 @@ public class UserReMenTest extends BaseTest {
 	public void userRegistrationMenVeg() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeVol();
 		achieve = desiredBody.bodytypeYouWantCut();
 		conti = achieve.wantToAchieve();
@@ -147,7 +145,6 @@ public class UserReMenTest extends BaseTest {
 	public void userRegistrationMenVegan() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeAv();
 		achieve = desiredBody.bodytypeYouWantFit();
 		conti = achieve.wantToAchieve();
@@ -182,7 +179,6 @@ public class UserReMenTest extends BaseTest {
 	public void heightInFtNonVeg() throws InterruptedException {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeVol();
 		achieve = desiredBody.bodytypeYouWantBulk();
 		conti = achieve.wantToAchieve();
@@ -223,7 +219,6 @@ public class UserReMenTest extends BaseTest {
 	public void heightInFtVeget() throws InterruptedException {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeAv();
 		achieve = desiredBody.bodytypeYouWantCut();
 		conti = achieve.wantToAchieve();
@@ -262,7 +257,6 @@ public class UserReMenTest extends BaseTest {
 	public void heightInFeetvegan() throws InterruptedException {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeVol();
 		achieve = desiredBody.bodytypeYouWantFit();
 		conti = achieve.wantToAchieve();
@@ -297,7 +291,6 @@ public class UserReMenTest extends BaseTest {
 	public void weightInLbsNonVeg() throws InterruptedException {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeAv();
 		achieve = desiredBody.bodytypeYouWantBulk();
 		conti = achieve.wantToAchieve();
@@ -337,7 +330,6 @@ public class UserReMenTest extends BaseTest {
 	public void weightLbsVeget() throws InterruptedException {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeVol();
 		achieve = desiredBody.bodytypeYouWantCut();
 		conti = achieve.wantToAchieve();
@@ -377,7 +369,6 @@ public class UserReMenTest extends BaseTest {
 	public void weightLbsVegan() throws InterruptedException {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeAv();
 		achieve = desiredBody.bodytypeYouWantFit();
 		conti = achieve.wantToAchieve();
@@ -409,10 +400,9 @@ public class UserReMenTest extends BaseTest {
 	}
 
 	@Test(priority = 10)
-	public void userWithBlankdEmaiId() throws InterruptedException {
+	public void userWithBlankdEmaiIdMen() throws InterruptedException {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeVol();
 		achieve = desiredBody.bodytypeYouWantBulk();
 		conti = achieve.wantToAchieve();
@@ -451,7 +441,6 @@ public class UserReMenTest extends BaseTest {
 	public void withoutFakeruserRegistrationMenNonVeg() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeAv();
 		achieve = desiredBody.bodytypeYouWantCut();
 		conti = achieve.wantToAchieve();
@@ -491,7 +480,6 @@ public class UserReMenTest extends BaseTest {
 	public void userRegistrationMenVegwitoutFaker() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeVol();
 		achieve = desiredBody.bodytypeYouWantFit();
 		conti = achieve.wantToAchieve();
@@ -530,7 +518,6 @@ public class UserReMenTest extends BaseTest {
 	public void witoutFakeruserRegistrationMenVegan() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
-		// gender.genderWomen()
 		desiredBody = type.choosebodyTypeAv();
 		achieve = desiredBody.bodytypeYouWantBulk();
 		conti = achieve.wantToAchieve();

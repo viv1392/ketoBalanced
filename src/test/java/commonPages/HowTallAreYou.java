@@ -29,9 +29,9 @@ public class HowTallAreYou extends UtilisClass {
 		@FindBy(linkText="Continue")
 		WebElement ele;
 		public WhatIsYourCurrentWeight heightCm() {
-			String x=fkr.number().digits(2);
+			String x=fkr.number().digits(1);
 			 int z=Integer.parseInt(x);
-			 int k=210-z;
+			 int k=190-z;
 			 String ht=Integer.toString(k);
 			ele1.sendKeys(ht);
 			Assert.assertEquals(popUpAtScr, msg);
@@ -44,7 +44,8 @@ public class HowTallAreYou extends UtilisClass {
 			String x=fkr.number().digits(1);
 			ele3.sendKeys(x);
 			Assert.assertEquals(popUpAtScr, msg);
-			ele4.sendKeys(x);
+			String y=fkr.number().digits(1);
+			ele4.sendKeys(y);
 			Assert.assertEquals(popUpAtScr, msg);
 			ele.click();
 			currentWt=new WhatIsYourCurrentWeight(driver);
@@ -61,7 +62,7 @@ public class HowTallAreYou extends UtilisClass {
 			ele2.click();
 			ele3.sendKeys("5");
 			Assert.assertEquals(popUpAtScr, msg);
-			ele4.sendKeys("10");
+			ele4.sendKeys("11");
 			Assert.assertEquals(popUpAtScr, msg);
 			ele.click();
 			currentWt=new WhatIsYourCurrentWeight(driver);

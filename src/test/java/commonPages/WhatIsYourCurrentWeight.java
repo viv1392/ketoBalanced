@@ -41,9 +41,9 @@ public class WhatIsYourCurrentWeight extends UtilisClass {
 	}
 	public ConsiderYourPerfectWeight weightKG() {
 		ele2.click();
-		String x=fkr.number().digits(2);
+		String x=fkr.number().digits(1);
 		int y=Integer.parseInt(x);
-		int z=140-y;
+		int z=130-y;
 		String k=Integer.toString(z);
 		ele3.sendKeys(k);
 		Assert.assertEquals(msgScr, msg);
