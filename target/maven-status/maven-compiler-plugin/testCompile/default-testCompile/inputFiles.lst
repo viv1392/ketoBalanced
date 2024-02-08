@@ -4,6 +4,7 @@ C:\Users\HISPL\git\KetoR\src\test\java\utilities\MyExtent.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\HowActiveAreYou.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\SpecialOccasions.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\ContinuePage.java
+C:\Users\HISPL\git\KetoR\src\test\java\stepDefenations\StepsUserRegistration.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\SummaryOfYourOverallWellness.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\ItIsPossibleToSelectMultipleAnswers.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\WhatIsYourAge.java
@@ -30,6 +31,7 @@ C:\Users\HISPL\git\KetoR\src\test\java\commonPages\GenderSel.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\ChooseYourTargetZones.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\Veggies.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\WhatIsYourCurrentWeight.java
+C:\Users\HISPL\git\KetoR\src\test\java\testRunner\TestRun.java
 C:\Users\HISPL\git\KetoR\src\test\java\utilities\MyListners.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\Your4WeekKetoDietingPlan.java
 C:\Users\HISPL\git\KetoR\src\test\java\commonPages\OtherFoodItems.java
