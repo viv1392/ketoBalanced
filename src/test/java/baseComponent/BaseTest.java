@@ -45,7 +45,6 @@ public class BaseTest extends ReadConfigFile {
 		page = new LandingPage(driver);
 		return page;
 	}
-		
 
 	@AfterMethod
 	public void tearDown() {

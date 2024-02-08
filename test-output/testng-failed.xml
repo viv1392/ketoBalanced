@@ -8,10 +8,8 @@
     <classes>
       <class name="userRegistrationTest.UserReWomenTest">
         <methods>
-          <include name="performance"/>
-          <include name="heightInFtNonVegWomen"/>
           <include name="heightInFtVegetWomen"/>
-          <include name="witoutFakeruserRegistrationWoMenVegan"/>
+          <include name="weightInLbsNonVegWomen"/>
           <include name="landingPageUrl"/>
           <include name="userWithBlankdEmaiIdWomen"/>
           <include name="tearDown"/>
@@ -19,7 +17,9 @@
       </class> <!-- userRegistrationTest.UserReWomenTest -->
       <class name="userRegistrationTest.UserReMenTest">
         <methods>
-          <include name="heightInFeetvegan"/>
+          <include name="weightLbsVegan"/>
+          <include name="heightInFtVeget"/>
+          <include name="weightInLbsNonVeg"/>
           <include name="heightInFtNonVeg"/>
           <include name="landingPageUrl"/>
           <include name="tearDown"/>

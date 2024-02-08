@@ -36,6 +36,8 @@ public class MyExtent {
 		reports.setSystemInfo("Browser", prop.getProperty("Br"));
 		reports.setSystemInfo("operatingSystem", System.getProperty("os.name"));
 		reports.setSystemInfo("Java Version", System.getProperty("java.version"));
+		reports.setSystemInfo("Enviroment", "Production");
+		reports.setSystemInfo("Tested By", "Vivek Pandey");
 		return reports;
 		
 	}
