@@ -1,11 +1,22 @@
 package stepDefenations;
 
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 import baseComponent.BaseTest;
+import commonPages.BackToPlans;
 import commonPages.BodyTypeYouWant;
 import commonPages.ChooseBodyType;
+import commonPages.ChoosePlan;
 import commonPages.ChooseYourTargetZones;
+import commonPages.ConsiderYourPerfectWeight;
 import commonPages.ContinuePage;
+import commonPages.EnterYourEmail;
 import commonPages.GenderSel;
+import commonPages.GotIt;
 import commonPages.HowActiveAreYou;
 import commonPages.HowTallAreYou;
 import commonPages.HowYouSpendYourDay;
@@ -14,14 +25,25 @@ import commonPages.LandingPage;
 import commonPages.LastHappyWithYourWeight;
 import commonPages.MealPreparationEachDay;
 import commonPages.Meat;
+import commonPages.OneAndOnlyPlan;
 import commonPages.OtherFoodItems;
 import commonPages.ShedSomeExtraWeight;
+import commonPages.SpecialOccasions;
+import commonPages.SummaryOfYourOverallWellness;
 import commonPages.Veggies;
 import commonPages.WantToAchieve;
+import commonPages.WhatIsYourAge;
+import commonPages.WhatIsYourCurrentWeight;
+import commonPages.Your4WeekKetoDietingPlan;
+import commonPages.YourKetoDietPlanIsReady;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StepsUserRegistration extends BaseTest {
-	
+	WebDriver driver;
+
 	LandingPage page;
 	GenderSel gender;
 	ChooseBodyType type;
@@ -39,78 +61,181 @@ public class StepsUserRegistration extends BaseTest {
 	ItIsPossibleToSelectMultipleAnswers multi;
 	ShedSomeExtraWeight extraWeight;
 	HowTallAreYou tall;
-	
-    @Given(value = "User launch the browser with web address")
-	public void  User_launch_the_browser_with_web_address() throws Throwable {
-    	System.out.println("Browser launched");
-        page=landingPageUrl();
+	WhatIsYourCurrentWeight currentWeight;
+	ConsiderYourPerfectWeight perfectWeight;
+	WhatIsYourAge age;
+	SummaryOfYourOverallWellness wellness;
+	SpecialOccasions occassion;
+	OneAndOnlyPlan plan;
+	Your4WeekKetoDietingPlan dietingPlan;
+	EnterYourEmail mail;
+	YourKetoDietPlanIsReady dietPlan;
+	BackToPlans backPlan;
+	GotIt gotit;
+	ChoosePlan choosePlan;
+
+	@Before
+	public void driverSetUp() {
+		WebDriverManager.chromedriver().setup();
+		ChromeOptions option = new ChromeOptions();
+		option.addArguments("--incognito");
+		option.addArguments("--headless");
+		driver = new ChromeDriver(option);
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.get("https://ketobalanced.com/");
+		page = new LandingPage(driver);
 	}
-    @And(value = "User goes to Landing page")
-    public void Landing_Page() {
-    	gender=page.landingPage();
-    }
-    @Then(value="User navigated to gender page and select men")
-    public void userMen() {
-    	type=gender.genderMen();
-    }
-    @Then(value="User choose current body type")
-    public void userCurrentbodytype() {
-     bodyType=type.choosebodyTypeVol();
-    
-    }
-    @Then(value="User choose body type he want")
-    public void desiredbodytype() {
-    	achieve=bodyType.bodytypeYouWantFit();
-    }
-    @Then(value="User want to achieve")
-    public void wantToAchieve() {
-     contin=achieve.wantToAchieve();
-    }
-    @Then(value="User choose target zone")
-    	public void targetZone() {
-    	zone=contin.continuePage();
-        happy=zone.yourTargetZone();
-    	}
-    @Then(value="User choose when he was last happy with his weight")
-    public void lastHappyWithWeight() {
-       mealPrep=happy.lastHappyWithYourWeight();
-    }
-    @Then(value="User choose how much he has time for meal prepartaion")
-    public void timeForMealPreparation() {
-    	meat=mealPrep.mealPreparationEachDay();
-    }
-    @Then(value="User navigated to meal preferences and choose meat")
-    public void mealPreference() throws InterruptedException {
-    	veggi=meat.meat();
-    }
-    @And(value="User also chooses some veggies")
-    public void veggiesPreference() {
-    	otherFood=veggi.veggies();
-    }
-    @And(value="User also prefers some other food items as non veg")
-    public void otherFoodItems() {
-    active=otherFood.non_veg();
-    }
-    @Then(value="User select how active he is as no physical activity")
-    public void user_select_how_active_he_is_no_physical() {
-    	day=active.almostNoPhysicalActivity();
-    }
-    @And(value="User select his day at workplace")
-    public void user_select_his_day_at_workplace() {
-       multi=day.atWorkplace();
-    }
-    @Then(value="User select multiple answer")
-    public void User_select_multiple_answer() throws InterruptedException {
-    	multi.qualitySleep();
-    	multi.quitEatingSweets();
-    	multi.saltIntakeIsMore();
-    	multi.softDrinks();
-    	extraWeight=multi.continueButton();
-    }
-    @And(value="User  select  Just Want to See how Keto Diet helps in weight loss.")
-    public void User_select_Just_Want_to_See_how_Keto_Diet_helps_in_weight_loss() {
-    	tall=extraWeight.asPossible();
-    }
- }
 
+	@After
+	public void tearDown() {
+		driver.quit();
+	}
 
+	@Given(value = "User goes to Landing page")
+	public void Landing_Page() {
+		gender = page.landingPage();
+	}
+
+	@Then(value = "User navigated to gender page and select men")
+	public void userMen() {
+		type = gender.genderMen();
+	}
+
+	@Then(value = "User choose current body type")
+	public void userCurrentbodytype() {
+		bodyType = type.choosebodyTypeVol();
+
+	}
+
+	@Then(value = "User choose body type he want")
+	public void desiredbodytype() {
+		achieve = bodyType.bodytypeYouWantFit();
+	}
+
+	@Then(value = "User want to achieve")
+	public void wantToAchieve() {
+		contin = achieve.wantToAchieve();
+	}
+
+	@Then(value = "User choose target zone")
+	public void targetZone() {
+		zone = contin.continuePage();
+		happy = zone.yourTargetZone();
+	}
+
+	@Then(value = "User choose when he was last happy with his weight")
+	public void lastHappyWithWeight() {
+		mealPrep = happy.lastHappyWithYourWeight();
+	}
+
+	@Then(value = "User choose how much he has time for meal prepartaion")
+	public void timeForMealPreparation() {
+		meat = mealPrep.mealPreparationEachDay();
+	}
+
+	@Then(value = "User navigated to meal preferences and choose meat")
+	public void mealPreference() throws InterruptedException {
+		veggi = meat.meat();
+	}
+
+	@And(value = "User also chooses some veggies")
+	public void veggiesPreference() {
+		otherFood = veggi.veggies();
+	}
+
+	@And(value = "User also prefers some other food items as non veg")
+	public void otherFoodItems() {
+		active = otherFood.non_veg();
+	}
+
+	@Then(value = "User select how active he is as no physical activity")
+	public void user_select_how_active_he_is_no_physical() {
+		day = active.almostNoPhysicalActivity();
+	}
+
+	@And(value = "User select his day at workplace")
+	public void user_select_his_day_at_workplace() {
+		multi = day.atWorkplace();
+	}
+
+	@Then(value = "User select multiple answer")
+	public void User_select_multiple_answer() throws InterruptedException {
+		multi.qualitySleep();
+		multi.quitEatingSweets();
+		multi.saltIntakeIsMore();
+		multi.softDrinks();
+		extraWeight = multi.continueButton();
+	}
+
+	@And(value = "User  select  Just Want to See how Keto Diet helps in weight loss.")
+	public void User_select_Just_Want_to_See_how_Keto_Diet_helps_in_weight_loss() {
+		tall = extraWeight.asPossible();
+	}
+
+	@Then(value = "User enters the height in feet and inch without faker")
+	public void user_Enters_the_height() {
+		currentWeight = tall.withoutFakerheightFeet();
+	}
+
+	@And(value = "User enters the weight in lbs without faker")
+	public void user_enters_weight_lbs() {
+		perfectWeight = currentWeight.withoutFakerweightLbs();
+	}
+
+	@Then(value = "User enters perfect weight he wants in lbs without faker")
+	public void user_enters_perfect_weight() {
+		age = perfectWeight.withoutFakertarWeightLbs();
+	}
+
+	@And(value = "User enters his age without faker")
+	public void user_enters_his_weight() {
+		wellness = age.withoutFakeryourAge();
+	}
+
+	@Then(value = "User sees his overall wellness")
+	public void User_sees_his_overall_wellness() {
+		occassion = wellness.overallWellness();
+	}
+
+	@And(value = "User choose no event")
+	public void User_choose_no_event() {
+		plan = occassion.No();
+	}
+
+	@Then(value = "User goes one and only plan")
+	public void User_goes_one_and_only_plan() {
+		dietingPlan = plan.oneAndOnlyPlan();
+	}
+
+	@And(value = "User goes four week dieting chart")
+	public void user_goes_four_week_dieting_chart() {
+		mail = dietingPlan.your4WeekKetoDietingPlan();
+	}
+
+	@Then(value = "User entrs mail")
+	public void User_enters_mail_without_fakr() {
+		dietPlan = mail.validEmail();
+	}
+
+	@And(value = "User goes on diet plan page")
+	public void User_goes_on_diet_plan_page() {
+		backPlan = dietPlan.oneMonthPlan();
+	}
+
+	@Then(value = "User goes back to plan")
+	public void User_goes_back_to_plan() {
+		gotit = backPlan.backToPlan();
+	}
+
+	@And(value = "User click on got it")
+	public void user_click_on_got_it() {
+		choosePlan = gotit.goIt();
+	}
+
+	@Then(value = "User click on Choose Plan button")
+	public void user_click_on_chhose_plan_button() throws InterruptedException {
+		choosePlan.choosePlan();
+	}
+}

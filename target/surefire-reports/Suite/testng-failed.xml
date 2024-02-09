@@ -8,6 +8,8 @@
     <classes>
       <class name="userRegistrationTest.UserReWomenTest">
         <methods>
+          <include name="heightInFtNonVegWomen"/>
+          <include name="heightInFtVegetWomen"/>
           <include name="heightInFeetveganWomen"/>
           <include name="weightLbsVeganWomen"/>
           <include name="landingPageUrl"/>
@@ -18,7 +20,6 @@
       <class name="userRegistrationTest.UserReMenTest">
         <methods>
           <include name="heightInFtVeget"/>
-          <include name="weightInLbsNonVeg"/>
           <include name="heightInFtNonVeg"/>
           <include name="landingPageUrl"/>
           <include name="tearDown"/>

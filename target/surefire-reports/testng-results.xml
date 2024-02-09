@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="26" passed="19" failed="7" skipped="0">
+<testng-results total="26" passed="18" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-08T11:36:19Z" name="Suite" finished-at="2024-02-08T11:49:45Z" duration-ms="806097">
+  <suite started-at="2024-02-09T04:29:23Z" name="Suite" finished-at="2024-02-09T04:42:34Z" duration-ms="790845">
     <groups>
     </groups>
-    <test started-at="2024-02-08T11:36:19Z" name="Test" finished-at="2024-02-08T11:49:45Z" duration-ms="806097">
+    <test started-at="2024-02-09T04:29:23Z" name="Test" finished-at="2024-02-09T04:42:34Z" duration-ms="790845">
       <class name="userRegistrationTest.UserReMenTest">
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:06:19Z" name="landingPageUrl" finished-at="2024-02-08T17:06:27Z" duration-ms="7259" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T09:59:24Z" name="landingPageUrl" finished-at="2024-02-09T09:59:33Z" duration-ms="9554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userRegistrationMenNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:06:27Z" name="userRegistrationMenNonVeg" finished-at="2024-02-08T17:06:54Z" duration-ms="27624" status="PASS">
+        <test-method signature="userRegistrationMenNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T09:59:33Z" name="userRegistrationMenNonVeg" finished-at="2024-02-09T10:00:04Z" duration-ms="31058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationMenNonVeg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:06:54Z" name="tearDown" finished-at="2024-02-08T17:06:54Z" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:00:04Z" name="tearDown" finished-at="2024-02-09T10:00:04Z" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:06:54Z" name="landingPageUrl" finished-at="2024-02-08T17:06:57Z" duration-ms="2504" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:00:04Z" name="landingPageUrl" finished-at="2024-02-09T10:00:08Z" duration-ms="3228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userRegistrationMenVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:06:57Z" name="userRegistrationMenVeg" finished-at="2024-02-08T17:07:26Z" duration-ms="28970" status="PASS">
+        <test-method signature="userRegistrationMenVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:00:08Z" name="userRegistrationMenVeg" finished-at="2024-02-09T10:00:37Z" duration-ms="28977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationMenVeg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:07:26Z" name="tearDown" finished-at="2024-02-08T17:07:26Z" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:00:37Z" name="tearDown" finished-at="2024-02-09T10:00:37Z" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:07:26Z" name="landingPageUrl" finished-at="2024-02-08T17:07:29Z" duration-ms="2726" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:00:37Z" name="landingPageUrl" finished-at="2024-02-09T10:00:39Z" duration-ms="2715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userRegistrationMenVegan()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:07:29Z" name="userRegistrationMenVegan" finished-at="2024-02-08T17:07:57Z" duration-ms="28934" status="PASS">
+        <test-method signature="userRegistrationMenVegan()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:00:39Z" name="userRegistrationMenVegan" finished-at="2024-02-09T10:01:11Z" duration-ms="31389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationMenVegan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:07:57Z" name="tearDown" finished-at="2024-02-08T17:07:58Z" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:01:11Z" name="tearDown" finished-at="2024-02-09T10:01:11Z" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:07:58Z" name="landingPageUrl" finished-at="2024-02-08T17:08:00Z" duration-ms="2093" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:01:11Z" name="landingPageUrl" finished-at="2024-02-09T10:01:13Z" duration-ms="2087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="heightInFtNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:08:00Z" name="heightInFtNonVeg" finished-at="2024-02-08T17:08:20Z" duration-ms="19886" status="FAIL">
+        <test-method signature="heightInFtNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:01:13Z" name="heightInFtNonVeg" finished-at="2024-02-09T10:01:32Z" duration-ms="19634" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35c9dde7eb19b4db5df026d98508a270, findElement {using=xpath, value=//div[text()='kg']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65388/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35c9dde7eb19b4db5df026d98508a270]]>
+Command: [2c94fc94c5c754112dee0be939cdc037, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51578}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51578/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c94fc94c5c754112dee0be939cdc037]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35c9dde7eb19b4db5df026d98508a270, findElement {using=xpath, value=//div[text()='kg']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65388/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35c9dde7eb19b4db5df026d98508a270
+Command: [2c94fc94c5c754112dee0be939cdc037, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51578}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51578/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c94fc94c5c754112dee0be939cdc037
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -125,37 +125,37 @@ Session ID: 35c9dde7eb19b4db5df026d98508a270
           <reporter-output>
           </reporter-output>
         </test-method> <!-- heightInFtNonVeg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:08:20Z" name="tearDown" finished-at="2024-02-08T17:08:20Z" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:01:33Z" name="tearDown" finished-at="2024-02-09T10:01:33Z" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:08:20Z" name="landingPageUrl" finished-at="2024-02-08T17:08:22Z" duration-ms="2358" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:01:33Z" name="landingPageUrl" finished-at="2024-02-09T10:01:35Z" duration-ms="2143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="heightInFtVeget()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:08:22Z" name="heightInFtVeget" finished-at="2024-02-08T17:08:45Z" duration-ms="22668" status="FAIL">
+        <test-method signature="heightInFtVeget()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:01:35Z" name="heightInFtVeget" finished-at="2024-02-09T10:01:57Z" duration-ms="21977" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0eb091953371ec0473d6f1d415456ab2, findElement {using=xpath, value=//div[text()='kg']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65428}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65428/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0eb091953371ec0473d6f1d415456ab2]]>
+Command: [6c5d9893769a97c8c9e3dc7edbc24b1c, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51617}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51617/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c5d9893769a97c8c9e3dc7edbc24b1c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0eb091953371ec0473d6f1d415456ab2, findElement {using=xpath, value=//div[text()='kg']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65428}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65428/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0eb091953371ec0473d6f1d415456ab2
+Command: [6c5d9893769a97c8c9e3dc7edbc24b1c, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51617}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51617/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c5d9893769a97c8c9e3dc7edbc24b1c
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -211,159 +211,85 @@ Session ID: 0eb091953371ec0473d6f1d415456ab2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- heightInFtVeget -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:08:45Z" name="tearDown" finished-at="2024-02-08T17:08:45Z" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:01:57Z" name="tearDown" finished-at="2024-02-09T10:01:57Z" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:08:45Z" name="landingPageUrl" finished-at="2024-02-08T17:08:47Z" duration-ms="2212" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:01:57Z" name="landingPageUrl" finished-at="2024-02-09T10:01:59Z" duration-ms="2070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="heightInFeetvegan()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:08:47Z" name="heightInFeetvegan" finished-at="2024-02-08T17:09:16Z" duration-ms="28875" status="PASS">
+        <test-method signature="heightInFeetvegan()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:01:59Z" name="heightInFeetvegan" finished-at="2024-02-09T10:02:28Z" duration-ms="28996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- heightInFeetvegan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:09:16Z" name="tearDown" finished-at="2024-02-08T17:09:16Z" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:02:28Z" name="tearDown" finished-at="2024-02-09T10:02:28Z" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:09:16Z" name="landingPageUrl" finished-at="2024-02-08T17:09:18Z" duration-ms="2086" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:02:28Z" name="landingPageUrl" finished-at="2024-02-09T10:02:30Z" duration-ms="2345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="weightInLbsNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:09:18Z" name="weightInLbsNonVeg" finished-at="2024-02-08T17:09:49Z" duration-ms="31046" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Other']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [981fd5ad092e7b1b5dacf0bca7277170, findElement {using=xpath, value=//span[text()='Other']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65515}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65515/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 981fd5ad092e7b1b5dacf0bca7277170]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Other']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [981fd5ad092e7b1b5dacf0bca7277170, findElement {using=xpath, value=//span[text()='Other']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65515}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65515/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 981fd5ad092e7b1b5dacf0bca7277170
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
-	at commonPages.SpecialOccasions.Other(SpecialOccasions.java:57)
-	at userRegistrationTest.UserReMenTest.weightInLbsNonVeg(UserReMenTest.java:318)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="weightInLbsNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:02:30Z" name="weightInLbsNonVeg" finished-at="2024-02-09T10:02:58Z" duration-ms="27366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weightInLbsNonVeg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:09:49Z" name="tearDown" finished-at="2024-02-08T17:09:49Z" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:02:58Z" name="tearDown" finished-at="2024-02-09T10:02:58Z" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:09:49Z" name="landingPageUrl" finished-at="2024-02-08T17:09:52Z" duration-ms="2157" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:02:58Z" name="landingPageUrl" finished-at="2024-02-09T10:03:00Z" duration-ms="2182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="weightLbsVeget()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:09:52Z" name="weightLbsVeget" finished-at="2024-02-08T17:10:22Z" duration-ms="30920" status="PASS">
+        <test-method signature="weightLbsVeget()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:03:00Z" name="weightLbsVeget" finished-at="2024-02-09T10:03:31Z" duration-ms="30987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weightLbsVeget -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:10:22Z" name="tearDown" finished-at="2024-02-08T17:10:23Z" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:03:31Z" name="tearDown" finished-at="2024-02-09T10:03:31Z" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:10:23Z" name="landingPageUrl" finished-at="2024-02-08T17:10:25Z" duration-ms="2448" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:03:31Z" name="landingPageUrl" finished-at="2024-02-09T10:03:33Z" duration-ms="2195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="weightLbsVegan()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:10:25Z" name="weightLbsVegan" finished-at="2024-02-08T17:10:54Z" duration-ms="28594" status="PASS">
+        <test-method signature="weightLbsVegan()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:03:33Z" name="weightLbsVegan" finished-at="2024-02-09T10:04:02Z" duration-ms="29015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weightLbsVegan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:10:54Z" name="tearDown" finished-at="2024-02-08T17:10:54Z" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:04:02Z" name="tearDown" finished-at="2024-02-09T10:04:02Z" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:10:54Z" name="landingPageUrl" finished-at="2024-02-08T17:10:56Z" duration-ms="2429" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:04:02Z" name="landingPageUrl" finished-at="2024-02-09T10:04:04Z" duration-ms="2112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userWithBlankdEmaiIdMen()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:10:56Z" name="userWithBlankdEmaiIdMen" finished-at="2024-02-08T17:11:29Z" duration-ms="32891" status="FAIL">
+        <test-method signature="userWithBlankdEmaiIdMen()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:04:04Z" name="userWithBlankdEmaiIdMen" finished-at="2024-02-09T10:04:38Z" duration-ms="33813" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Please enter valid email id"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6068358e773de9941788dd8c6f6281b2, findElement {using=link text, value=Please enter valid email id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49262/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6068358e773de9941788dd8c6f6281b2]]>
+Command: [d5a8c999c0ba2891a2c4cf622ab15850, findElement {using=link text, value=Please enter valid email id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51818/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5a8c999c0ba2891a2c4cf622ab15850]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Please enter valid email id"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6068358e773de9941788dd8c6f6281b2, findElement {using=link text, value=Please enter valid email id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49262/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6068358e773de9941788dd8c6f6281b2
+Command: [d5a8c999c0ba2891a2c4cf622ab15850, findElement {using=link text, value=Please enter valid email id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51818/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5a8c999c0ba2891a2c4cf622ab15850
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -419,136 +345,282 @@ Session ID: 6068358e773de9941788dd8c6f6281b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userWithBlankdEmaiIdMen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:11:29Z" name="tearDown" finished-at="2024-02-08T17:11:29Z" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:04:38Z" name="tearDown" finished-at="2024-02-09T10:04:38Z" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:11:29Z" name="landingPageUrl" finished-at="2024-02-08T17:11:31Z" duration-ms="2329" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:04:38Z" name="landingPageUrl" finished-at="2024-02-09T10:04:41Z" duration-ms="2117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="withoutFakeruserRegistrationMenNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:11:31Z" name="withoutFakeruserRegistrationMenNonVeg" finished-at="2024-02-08T17:11:58Z" duration-ms="26592" status="PASS">
+        <test-method signature="withoutFakeruserRegistrationMenNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:04:41Z" name="withoutFakeruserRegistrationMenNonVeg" finished-at="2024-02-09T10:05:07Z" duration-ms="26542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withoutFakeruserRegistrationMenNonVeg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:11:58Z" name="tearDown" finished-at="2024-02-08T17:11:58Z" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:05:07Z" name="tearDown" finished-at="2024-02-09T10:05:07Z" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:11:58Z" name="landingPageUrl" finished-at="2024-02-08T17:12:00Z" duration-ms="2261" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:05:07Z" name="landingPageUrl" finished-at="2024-02-09T10:05:09Z" duration-ms="2250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userRegistrationMenVegwitoutFaker()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:12:00Z" name="userRegistrationMenVegwitoutFaker" finished-at="2024-02-08T17:12:29Z" duration-ms="28708" status="PASS">
+        <test-method signature="userRegistrationMenVegwitoutFaker()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:05:09Z" name="userRegistrationMenVegwitoutFaker" finished-at="2024-02-09T10:05:38Z" duration-ms="28990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationMenVegwitoutFaker -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:12:29Z" name="tearDown" finished-at="2024-02-08T17:12:29Z" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:05:38Z" name="tearDown" finished-at="2024-02-09T10:05:38Z" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:12:29Z" name="landingPageUrl" finished-at="2024-02-08T17:12:32Z" duration-ms="2668" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:05:38Z" name="landingPageUrl" finished-at="2024-02-09T10:05:41Z" duration-ms="2146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="witoutFakeruserRegistrationMenVegan()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:12:32Z" name="witoutFakeruserRegistrationMenVegan" finished-at="2024-02-08T17:13:01Z" duration-ms="28930" status="PASS">
+        <test-method signature="witoutFakeruserRegistrationMenVegan()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:05:41Z" name="witoutFakeruserRegistrationMenVegan" finished-at="2024-02-09T10:06:09Z" duration-ms="28778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- witoutFakeruserRegistrationMenVegan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-08T17:13:01Z" name="tearDown" finished-at="2024-02-08T17:13:01Z" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@6e535154]" started-at="2024-02-09T10:06:09Z" name="tearDown" finished-at="2024-02-09T10:06:09Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- userRegistrationTest.UserReMenTest -->
       <class name="userRegistrationTest.UserReWomenTest">
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:13:01Z" name="landingPageUrl" finished-at="2024-02-08T17:13:03Z" duration-ms="2177" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:06:09Z" name="landingPageUrl" finished-at="2024-02-09T10:06:12Z" duration-ms="2411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userRegistrationWoMenNonVeg()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:13:03Z" name="userRegistrationWoMenNonVeg" finished-at="2024-02-08T17:13:30Z" duration-ms="26587" status="PASS">
+        <test-method signature="userRegistrationWoMenNonVeg()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:06:12Z" name="userRegistrationWoMenNonVeg" finished-at="2024-02-09T10:06:39Z" duration-ms="26627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationWoMenNonVeg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:13:30Z" name="tearDown" finished-at="2024-02-08T17:13:30Z" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:06:39Z" name="tearDown" finished-at="2024-02-09T10:06:39Z" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:13:30Z" name="landingPageUrl" finished-at="2024-02-08T17:13:32Z" duration-ms="2203" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:06:39Z" name="landingPageUrl" finished-at="2024-02-09T10:06:41Z" duration-ms="2301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userRegistrationWoMenVeg()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:13:32Z" name="userRegistrationWoMenVeg" finished-at="2024-02-08T17:14:01Z" duration-ms="28923" status="PASS">
+        <test-method signature="userRegistrationWoMenVeg()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:06:41Z" name="userRegistrationWoMenVeg" finished-at="2024-02-09T10:07:10Z" duration-ms="28865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationWoMenVeg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:14:01Z" name="tearDown" finished-at="2024-02-08T17:14:01Z" duration-ms="67" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:07:10Z" name="tearDown" finished-at="2024-02-09T10:07:10Z" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:14:01Z" name="landingPageUrl" finished-at="2024-02-08T17:14:03Z" duration-ms="2305" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:07:10Z" name="landingPageUrl" finished-at="2024-02-09T10:07:12Z" duration-ms="2173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userRegistrationWoMenVegan()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:14:03Z" name="userRegistrationWoMenVegan" finished-at="2024-02-08T17:14:32Z" duration-ms="28756" status="PASS">
+        <test-method signature="userRegistrationWoMenVegan()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:07:12Z" name="userRegistrationWoMenVegan" finished-at="2024-02-09T10:07:41Z" duration-ms="28549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationWoMenVegan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:14:32Z" name="tearDown" finished-at="2024-02-08T17:14:32Z" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:07:41Z" name="tearDown" finished-at="2024-02-09T10:07:41Z" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:14:32Z" name="landingPageUrl" finished-at="2024-02-08T17:14:34Z" duration-ms="1966" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:07:41Z" name="landingPageUrl" finished-at="2024-02-09T10:07:43Z" duration-ms="2220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="heightInFtNonVegWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:14:34Z" name="heightInFtNonVegWomen" finished-at="2024-02-08T17:15:03Z" duration-ms="28793" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- heightInFtNonVegWomen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:15:03Z" name="tearDown" finished-at="2024-02-08T17:15:03Z" duration-ms="78" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:15:03Z" name="landingPageUrl" finished-at="2024-02-08T17:15:05Z" duration-ms="2492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- landingPageUrl -->
-        <test-method signature="heightInFtVegetWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:15:05Z" name="heightInFtVegetWomen" finished-at="2024-02-08T17:15:35Z" duration-ms="29453" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- heightInFtVegetWomen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:15:35Z" name="tearDown" finished-at="2024-02-08T17:15:35Z" duration-ms="78" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:15:35Z" name="landingPageUrl" finished-at="2024-02-08T17:15:37Z" duration-ms="2367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- landingPageUrl -->
-        <test-method signature="heightInFeetveganWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:15:37Z" name="heightInFeetveganWomen" finished-at="2024-02-08T17:15:59Z" duration-ms="21986" status="FAIL">
+        <test-method signature="heightInFtNonVegWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:07:43Z" name="heightInFtNonVegWomen" finished-at="2024-02-09T10:08:03Z" duration-ms="19919" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [13be5ae9fabf833f85ce547485ab824a, findElement {using=xpath, value=//div[text()='kg']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49692/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 13be5ae9fabf833f85ce547485ab824a]]>
+Command: [c357781a3fd66da3322ff4694f140709, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52098/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c357781a3fd66da3322ff4694f140709]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [13be5ae9fabf833f85ce547485ab824a, findElement {using=xpath, value=//div[text()='kg']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49692/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 13be5ae9fabf833f85ce547485ab824a
-	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+Command: [c357781a3fd66da3322ff4694f140709, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52098/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c357781a3fd66da3322ff4694f140709
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at commonPages.WhatIsYourCurrentWeight.weightKG(WhatIsYourCurrentWeight.java:43)
+	at userRegistrationTest.UserReWomenTest.heightInFtNonVegWomen(UserReWomenTest.java:202)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heightInFtNonVegWomen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:08:03Z" name="tearDown" finished-at="2024-02-09T10:08:03Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:08:03Z" name="landingPageUrl" finished-at="2024-02-09T10:08:05Z" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="heightInFtVegetWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:08:05Z" name="heightInFtVegetWomen" finished-at="2024-02-09T10:08:27Z" duration-ms="22079" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
+  (Session info: chrome-headless-shell=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77a107243c21bd6b7794edc46cd71633, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52140/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77a107243c21bd6b7794edc46cd71633]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
+  (Session info: chrome-headless-shell=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77a107243c21bd6b7794edc46cd71633, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52140/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77a107243c21bd6b7794edc46cd71633
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at commonPages.WhatIsYourCurrentWeight.weightKG(WhatIsYourCurrentWeight.java:43)
+	at userRegistrationTest.UserReWomenTest.heightInFtVegetWomen(UserReWomenTest.java:241)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heightInFtVegetWomen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:08:27Z" name="tearDown" finished-at="2024-02-09T10:08:27Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:08:27Z" name="landingPageUrl" finished-at="2024-02-09T10:08:29Z" duration-ms="2209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="heightInFeetveganWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:08:29Z" name="heightInFeetveganWomen" finished-at="2024-02-09T10:08:51Z" duration-ms="21608" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
+  (Session info: chrome-headless-shell=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb195e8b87545e5b5103b0f62928fd85, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52183/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb195e8b87545e5b5103b0f62928fd85]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='kg']"}
+  (Session info: chrome-headless-shell=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb195e8b87545e5b5103b0f62928fd85, findElement {using=xpath, value=//div[text()='kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52183/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb195e8b87545e5b5103b0f62928fd85
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -602,62 +674,62 @@ Session ID: 13be5ae9fabf833f85ce547485ab824a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- heightInFeetveganWomen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:15:59Z" name="tearDown" finished-at="2024-02-08T17:15:59Z" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:08:51Z" name="tearDown" finished-at="2024-02-09T10:08:51Z" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:15:59Z" name="landingPageUrl" finished-at="2024-02-08T17:16:02Z" duration-ms="2194" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:08:51Z" name="landingPageUrl" finished-at="2024-02-09T10:08:53Z" duration-ms="2186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="weightInLbsNonVegWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:16:02Z" name="weightInLbsNonVegWomen" finished-at="2024-02-08T17:16:28Z" duration-ms="26768" status="PASS">
+        <test-method signature="weightInLbsNonVegWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:08:53Z" name="weightInLbsNonVegWomen" finished-at="2024-02-09T10:09:20Z" duration-ms="26745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weightInLbsNonVegWomen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:16:28Z" name="tearDown" finished-at="2024-02-08T17:16:28Z" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:09:20Z" name="tearDown" finished-at="2024-02-09T10:09:20Z" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:16:28Z" name="landingPageUrl" finished-at="2024-02-08T17:16:31Z" duration-ms="2248" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:09:20Z" name="landingPageUrl" finished-at="2024-02-09T10:09:22Z" duration-ms="2117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="weightLbsVegetWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:16:31Z" name="weightLbsVegetWomen" finished-at="2024-02-08T17:17:02Z" duration-ms="30899" status="PASS">
+        <test-method signature="weightLbsVegetWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:09:22Z" name="weightLbsVegetWomen" finished-at="2024-02-09T10:09:53Z" duration-ms="30985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weightLbsVegetWomen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:17:02Z" name="tearDown" finished-at="2024-02-08T17:17:02Z" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:09:53Z" name="tearDown" finished-at="2024-02-09T10:09:53Z" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:17:02Z" name="landingPageUrl" finished-at="2024-02-08T17:17:04Z" duration-ms="2466" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:09:53Z" name="landingPageUrl" finished-at="2024-02-09T10:09:56Z" duration-ms="2173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="weightLbsVeganWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:17:04Z" name="weightLbsVeganWomen" finished-at="2024-02-08T17:17:37Z" duration-ms="32867" status="FAIL">
+        <test-method signature="weightLbsVeganWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:09:56Z" name="weightLbsVeganWomen" finished-at="2024-02-09T10:10:28Z" duration-ms="32481" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Vacation']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1e897244d14700c8e5f3a04b6a71ea1f, findElement {using=xpath, value=//span[text()='Vacation']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49824/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e897244d14700c8e5f3a04b6a71ea1f]]>
+Command: [df1128c9afa324b4436e21fe2782499a, findElement {using=xpath, value=//span[text()='Vacation']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52302/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df1128c9afa324b4436e21fe2782499a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Vacation']"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1e897244d14700c8e5f3a04b6a71ea1f, findElement {using=xpath, value=//span[text()='Vacation']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49824/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e897244d14700c8e5f3a04b6a71ea1f
-	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+Command: [df1128c9afa324b4436e21fe2782499a, findElement {using=xpath, value=//span[text()='Vacation']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52302/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df1128c9afa324b4436e21fe2782499a
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -711,38 +783,38 @@ Session ID: 1e897244d14700c8e5f3a04b6a71ea1f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weightLbsVeganWomen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:17:37Z" name="tearDown" finished-at="2024-02-08T17:17:37Z" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:10:28Z" name="tearDown" finished-at="2024-02-09T10:10:28Z" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:17:37Z" name="landingPageUrl" finished-at="2024-02-08T17:17:40Z" duration-ms="2412" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:10:28Z" name="landingPageUrl" finished-at="2024-02-09T10:10:31Z" duration-ms="2296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userWithBlankdEmaiIdWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:17:40Z" name="userWithBlankdEmaiIdWomen" finished-at="2024-02-08T17:18:12Z" duration-ms="32773" status="FAIL">
+        <test-method signature="userWithBlankdEmaiIdWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:10:31Z" name="userWithBlankdEmaiIdWomen" finished-at="2024-02-09T10:11:03Z" duration-ms="32661" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Please enter valid email id"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f84ad455f8a27ee56c02c2fc982af8dd, findElement {using=link text, value=Please enter valid email id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f84ad455f8a27ee56c02c2fc982af8dd]]>
+Command: [8e7573d04dae985968eb04754c8f29df, findElement {using=link text, value=Please enter valid email id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52351}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52351/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e7573d04dae985968eb04754c8f29df]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Please enter valid email id"}
-  (Session info: chrome-headless-shell=121.0.6167.140)
+  (Session info: chrome-headless-shell=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f84ad455f8a27ee56c02c2fc982af8dd, findElement {using=link text, value=Please enter valid email id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f84ad455f8a27ee56c02c2fc982af8dd
-	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+Command: [8e7573d04dae985968eb04754c8f29df, findElement {using=link text, value=Please enter valid email id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HISPL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52351}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52351/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e7573d04dae985968eb04754c8f29df
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -796,43 +868,43 @@ Session ID: f84ad455f8a27ee56c02c2fc982af8dd
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userWithBlankdEmaiIdWomen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:18:12Z" name="tearDown" finished-at="2024-02-08T17:18:13Z" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:11:03Z" name="tearDown" finished-at="2024-02-09T10:11:03Z" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:18:13Z" name="landingPageUrl" finished-at="2024-02-08T17:18:15Z" duration-ms="2381" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:11:03Z" name="landingPageUrl" finished-at="2024-02-09T10:11:05Z" duration-ms="2073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="withoutFakeruserRegistrationMenNonVegWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:18:15Z" name="withoutFakeruserRegistrationMenNonVegWomen" finished-at="2024-02-08T17:18:43Z" duration-ms="27595" status="PASS">
+        <test-method signature="withoutFakeruserRegistrationMenNonVegWomen()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:11:05Z" name="withoutFakeruserRegistrationMenNonVegWomen" finished-at="2024-02-09T10:11:32Z" duration-ms="26413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withoutFakeruserRegistrationMenNonVegWomen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:18:43Z" name="tearDown" finished-at="2024-02-08T17:18:43Z" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:11:32Z" name="tearDown" finished-at="2024-02-09T10:11:32Z" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:18:43Z" name="landingPageUrl" finished-at="2024-02-08T17:18:45Z" duration-ms="2350" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:11:32Z" name="landingPageUrl" finished-at="2024-02-09T10:11:34Z" duration-ms="2335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="userRegistrationWoMenVegwitoutFaker()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:18:45Z" name="userRegistrationWoMenVegwitoutFaker" finished-at="2024-02-08T17:19:14Z" duration-ms="28855" status="PASS">
+        <test-method signature="userRegistrationWoMenVegwitoutFaker()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:11:34Z" name="userRegistrationWoMenVegwitoutFaker" finished-at="2024-02-09T10:12:03Z" duration-ms="28890" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationWoMenVegwitoutFaker -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:19:14Z" name="tearDown" finished-at="2024-02-08T17:19:14Z" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:12:03Z" name="tearDown" finished-at="2024-02-09T10:12:03Z" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:19:14Z" name="landingPageUrl" finished-at="2024-02-08T17:19:16Z" duration-ms="2119" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:12:03Z" name="landingPageUrl" finished-at="2024-02-09T10:12:05Z" duration-ms="2191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="witoutFakeruserRegistrationWoMenVegan()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:19:16Z" name="witoutFakeruserRegistrationWoMenVegan" finished-at="2024-02-08T17:19:45Z" duration-ms="28975" status="PASS">
+        <test-method signature="witoutFakeruserRegistrationWoMenVegan()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:12:05Z" name="witoutFakeruserRegistrationWoMenVegan" finished-at="2024-02-09T10:12:34Z" duration-ms="28543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- witoutFakeruserRegistrationWoMenVegan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-08T17:19:45Z" name="tearDown" finished-at="2024-02-08T17:19:45Z" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@1a245833]" started-at="2024-02-09T10:12:34Z" name="tearDown" finished-at="2024-02-09T10:12:34Z" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
