@@ -10,11 +10,10 @@
         <methods>
           <include name="heightInFtNonVegWomen"/>
           <include name="heightInFtVegetWomen"/>
-          <include name="heightInFeetveganWomen"/>
-          <include name="weightLbsVeganWomen"/>
           <include name="landingPageUrl"/>
           <include name="userWithBlankdEmaiIdWomen"/>
           <include name="tearDown"/>
+          <include name="weightLbsVegetWomen"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReWomenTest -->
       <class name="userRegistrationTest.UserReMenTest">

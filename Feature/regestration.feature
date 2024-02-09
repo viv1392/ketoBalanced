@@ -1,11 +1,10 @@
 
 
 Feature: UserRegistration
-Background: 
-Given User goes to Landing page
+   Background: 
+    Given User goes to Landing page
   @MenNon-Veg
   Scenario: User regestration for ketobalanced 
-    #And User goes to Landing page
     Then User navigated to gender page and select men
     Then User choose current body type
     Then User choose body type he want

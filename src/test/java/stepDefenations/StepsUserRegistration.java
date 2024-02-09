@@ -79,7 +79,7 @@ public class StepsUserRegistration extends BaseTest {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions option = new ChromeOptions();
 		option.addArguments("--incognito");
-		option.addArguments("--headless");
+		//option.addArguments("--headless");
 		driver = new ChromeDriver(option);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
