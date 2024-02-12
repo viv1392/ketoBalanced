@@ -79,7 +79,7 @@ public class StepsUserRegistration extends BaseTest {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions option = new ChromeOptions();
 		option.addArguments("--incognito");
-		//option.addArguments("--headless");
+		// option.addArguments("--headless");
 		driver = new ChromeDriver(option);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
@@ -237,5 +237,40 @@ public class StepsUserRegistration extends BaseTest {
 	@Then(value = "User click on Choose Plan button")
 	public void user_click_on_chhose_plan_button() throws InterruptedException {
 		choosePlan.choosePlan();
+	}
+
+	@Then(value = "User navigated to gender page and select women")
+	public void gender_page_and_select_women() {
+		type = gender.genderWomen();
+	}
+
+	@Then("User choose current body type as extra")
+	public void user_choose_current_body_type_as_extra() {
+		bodyType = type.choosebodyTypeEx();
+	}
+
+	@Then("User navigated to meal preferences and choose vegetarian")
+	public void user_navigated_to_meal_preferences_and_choose_vegetarian() throws InterruptedException {
+		veggi = meat.vegetarian();
+	}
+
+	@Then("User also prefers some other food items as vegetarian")
+	public void user_also_prefers_some_other_food_items_as_vegetarian() throws InterruptedException {
+		active = otherFood.veget();
+	}
+
+	@Then("User enters the height in cm witoutfaker")
+	public void user_enters_the_height_in_cm_witoutfaker() {
+		currentWeight = tall.withoutFakerheightCm();
+	}
+
+	@Then("User enters the weight in kg without faker")
+	public void user_enters_the_weight_in_kg_without_faker() {
+		perfectWeight = currentWeight.withoutFakeeweightKG();
+	}
+
+	@Then("User enters perfect weight he wants in kg without faker")
+	public void user_enters_perfect_weight_he_wants_in_kg_without_faker() {
+		age = perfectWeight.withoutFakertarWeightKG();
 	}
 }
