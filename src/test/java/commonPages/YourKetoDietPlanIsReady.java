@@ -18,7 +18,7 @@ public class YourKetoDietPlanIsReady extends UtilisClass {
 	}
 	@FindBy(xpath="//div[@class='ok-tick']")
 	List<WebElement> ele1;
-	@FindBy(xpath="//div[text()='Buy Now']")
+	@FindBy(xpath="//div[text()='Buy Now →']")
 	WebElement ele2;
 	
 	

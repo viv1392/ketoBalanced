@@ -13,13 +13,13 @@ public class ChoosePlan extends UtilisClass {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//a[text()='Choose your plan']")
+	@FindBy(xpath="//a[text()='Choose your plan ']")
      WebElement ele;
 	
 	public void choosePlan() throws InterruptedException {
 		Thread.sleep(2000);
-		actionClass(driver,0,800);
+		actionClass(driver,0,1500);
+		Thread.sleep(1000);
 		ele.click();
-		
 	}
 }

@@ -15,7 +15,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-public class MyListners implements ITestListener {
+public class KetoListnersWeb implements ITestListener {
 	ExtentReports reports;
 	ExtentTest test;
 

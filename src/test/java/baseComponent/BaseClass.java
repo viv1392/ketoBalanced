@@ -15,7 +15,7 @@ import commonPages.LandingPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ReadConfigFile;
 
-public class BaseTest extends ReadConfigFile {
+public class BaseClass extends ReadConfigFile {
    public WebDriver driver;
 	public LandingPage page;
 
@@ -25,7 +25,8 @@ public class BaseTest extends ReadConfigFile {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--incognito");
-			options.addArguments("--headless");
+			//options.addArguments("--headless");
+			options.addArguments("--disable-notifications");
 			driver = new ChromeDriver(options);
 		}
 		if (browser.equalsIgnoreCase("edge")) {

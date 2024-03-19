@@ -14,7 +14,7 @@ public class WantToAchieve extends UtilisClass{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//span[text()='Loose weight']")
+	@FindBy(xpath="//span[text()='Lose weight']")
 	 WebElement ele1;
 	@FindBy(xpath="//span[text()='Boost brain power']")
 	 WebElement ele2;

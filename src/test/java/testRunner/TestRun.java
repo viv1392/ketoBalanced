@@ -7,13 +7,13 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features=".//Feature/regestration.feature",
+		features={".//Feature/regestration.feature"},
 		glue="stepDefenations",
 		dryRun=false,
 		monochrome=true,
-		plugin= {"pretty","html:test-cucumber"}
+		plugin= {"pretty","html:test-cucumber"},
+		tags = "@WomenVeg or @MenNon-Veg"
 		)
 
 public class TestRun {
-
 }

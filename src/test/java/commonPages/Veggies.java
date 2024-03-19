@@ -18,7 +18,7 @@ public class Veggies extends UtilisClass{
 	WebElement ele1;
 	@FindBy(xpath="//span[text()='Zucchini']")
 	WebElement ele2;
-	@FindBy(xpath="//span[text()='Avacado']")
+	@FindBy(xpath="//span[text()='Avocado']")
 	WebElement ele3;
 	@FindBy(xpath="//span[text()='Spinach']")
 	WebElement ele4;

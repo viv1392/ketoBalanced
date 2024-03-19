@@ -5,9 +5,9 @@
     <classes>
       <class name="userRegistrationTest.UserReMenTest">
         <methods>
-          <include name="userRegistrationMenNonVeg"/>
-          <include name="landingPageUrl"/>
           <include name="tearDown"/>
+          <include name="landingPageUrl"/>
+          <include name="userRegistrationMenNonVeg"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReMenTest -->
     </classes>

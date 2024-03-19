@@ -18,7 +18,8 @@ public class LandingPage {
 	@FindBy(linkText="Take the Quiz")
 	WebElement ele;
 	
-    public GenderSel landingPage() {
+    public GenderSel landingPage() throws InterruptedException {
+    	Thread.sleep(2000);
     	ele.click();
     	gender=new  GenderSel(driver);
     	return gender;

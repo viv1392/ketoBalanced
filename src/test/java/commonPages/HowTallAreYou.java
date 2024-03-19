@@ -20,7 +20,7 @@ public class HowTallAreYou extends UtilisClass {
 	}
 		@FindBy(id="height_cm_id")
 		WebElement ele1;
-		@FindBy(xpath="//div[text()='in']")
+		@FindBy(xpath="//div[text()='ft']")
 		WebElement ele2;
 		@FindBy(id="height_feet_id")
 		WebElement ele3;

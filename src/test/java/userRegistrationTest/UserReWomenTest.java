@@ -2,7 +2,7 @@ package userRegistrationTest;
 
 import org.testng.annotations.Test;
 
-import baseComponent.BaseTest;
+import baseComponent.BaseClass;
 import commonPages.BackToPlans;
 import commonPages.BodyTypeYouWant;
 import commonPages.ChooseBodyType;
@@ -10,7 +10,6 @@ import commonPages.ChoosePlan;
 import commonPages.ChooseYourTargetZones;
 import commonPages.ConsiderYourPerfectWeight;
 import commonPages.ContinuePage;
-import commonPages.EnterYourEmail;
 import commonPages.EventDateSelection;
 import commonPages.GenderSel;
 import commonPages.GotIt;
@@ -33,7 +32,7 @@ import commonPages.WhatIsYourCurrentWeight;
 import commonPages.Your4WeekKetoDietingPlan;
 import commonPages.YourKetoDietPlanIsReady;
 
-public class UserReWomenTest extends BaseTest {
+public class UserReWomenTest extends BaseClass {
 	GenderSel gender;
 	ChooseBodyType type;
 	BodyTypeYouWant desiredBody;
@@ -58,7 +57,6 @@ public class UserReWomenTest extends BaseTest {
 	EventDateSelection date;
 	OneAndOnlyPlan plan;
 	Your4WeekKetoDietingPlan week;
-	EnterYourEmail email;
 	YourKetoDietPlanIsReady planReady;
 	BackToPlans backPlans;
 	GotIt gotit;
@@ -95,8 +93,8 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.vacation();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
@@ -107,7 +105,7 @@ public class UserReWomenTest extends BaseTest {
 		public void userRegistrationWoMenVeg() throws Throwable {
 			gender = page.landingPage();
 			type= gender.genderWomen();
-			desiredBody = type.choosebodyTypeEx();
+			desiredBody = type.choosebodyTypeVol();
 			achieve = desiredBody.bodytypeYouWantCut();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
@@ -133,8 +131,8 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.wedding();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
@@ -167,8 +165,8 @@ public class UserReWomenTest extends BaseTest {
 			date=occasions.sportingEvent();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
@@ -179,7 +177,7 @@ public class UserReWomenTest extends BaseTest {
 		public void heightInFtNonVegWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type= gender.genderWomen();
-			desiredBody = type.choosebodyTypeEx();
+			desiredBody = type.choosebodyTypeVol();
 			achieve = desiredBody.bodytypeYouWantBulk();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
@@ -206,8 +204,8 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.sportingEvent();
 			plan = date.dateSelection();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
@@ -245,9 +243,9 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.Other();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
-			backPlans = planReady.oneMonthPlan();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
+			backPlans = planReady.sixMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
 			chooseplan.choosePlan();
@@ -257,7 +255,7 @@ public class UserReWomenTest extends BaseTest {
 		public void heightInFeetveganWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type=gender.genderWomen();
-			desiredBody = type.choosebodyTypeEx();
+			desiredBody = type.choosebodyTypeVol();
 			achieve = desiredBody.bodytypeYouWantFit();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
@@ -278,8 +276,8 @@ public class UserReWomenTest extends BaseTest {
 			occasions = wellness.overallWellness();
 			plan = occasions.No();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
@@ -318,8 +316,8 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.Other();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
@@ -330,7 +328,7 @@ public class UserReWomenTest extends BaseTest {
 		public void weightLbsVegetWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type= gender.genderWomen();
-			desiredBody = type.choosebodyTypeEx();
+			desiredBody = type.choosebodyTypeVol();
 			achieve = desiredBody.bodytypeYouWantCut();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
@@ -356,9 +354,9 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.vacation();
 			plan = date.dateSelection();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
-			backPlans = planReady.sixMonthPlan();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
+			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
 			chooseplan.choosePlan();
@@ -391,8 +389,8 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.vacation();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
@@ -403,7 +401,7 @@ public class UserReWomenTest extends BaseTest {
 		public void userWithBlankdEmaiIdWomen() throws InterruptedException {
 			gender = page.landingPage();
 			type= gender.genderWomen();
-			desiredBody = type.choosebodyTypeEx();
+			desiredBody = type.choosebodyTypeVol();
 			achieve = desiredBody.bodytypeYouWantBulk();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
@@ -430,8 +428,8 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.wedding();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.blankEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.threeMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
@@ -468,8 +466,8 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.vacation();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
@@ -480,7 +478,7 @@ public class UserReWomenTest extends BaseTest {
 		public void userRegistrationWoMenVegwitoutFaker() throws Throwable {
 			gender = page.landingPage();
 			type= gender.genderWomen();
-			desiredBody = type.choosebodyTypeEx();
+			desiredBody = type.choosebodyTypeVol();
 			achieve = desiredBody.bodytypeYouWantFit();
 			conti = achieve.wantToAchieve();
 			zone = conti.continuePage();
@@ -506,9 +504,9 @@ public class UserReWomenTest extends BaseTest {
 			date = occasions.wedding();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
-			backPlans = planReady.oneMonthPlan();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.blankEmail();
+			backPlans = planReady.sixMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();
 			chooseplan.choosePlan();
@@ -540,8 +538,8 @@ public class UserReWomenTest extends BaseTest {
 			date=occasions.sportingEvent();
 			plan = date.skipThisQuestion();
 			week = plan.oneAndOnlyPlan();
-			email = week.your4WeekKetoDietingPlan();
-			planReady = email.validEmail();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
 			backPlans = planReady.oneMonthPlan();
 			gotit = backPlans.backToPlan();
 			chooseplan = gotit.goIt();

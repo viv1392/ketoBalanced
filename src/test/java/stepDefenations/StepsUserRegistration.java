@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import baseComponent.BaseTest;
+import baseComponent.BaseClass;
 import commonPages.BackToPlans;
 import commonPages.BodyTypeYouWant;
 import commonPages.ChooseBodyType;
@@ -14,7 +14,6 @@ import commonPages.ChoosePlan;
 import commonPages.ChooseYourTargetZones;
 import commonPages.ConsiderYourPerfectWeight;
 import commonPages.ContinuePage;
-import commonPages.EnterYourEmail;
 import commonPages.GenderSel;
 import commonPages.GotIt;
 import commonPages.HowActiveAreYou;
@@ -41,7 +40,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class StepsUserRegistration extends BaseTest {
+public class StepsUserRegistration extends BaseClass {
 	WebDriver driver;
 
 	LandingPage page;
@@ -68,7 +67,6 @@ public class StepsUserRegistration extends BaseTest {
 	SpecialOccasions occassion;
 	OneAndOnlyPlan plan;
 	Your4WeekKetoDietingPlan dietingPlan;
-	EnterYourEmail mail;
 	YourKetoDietPlanIsReady dietPlan;
 	BackToPlans backPlan;
 	GotIt gotit;
@@ -94,7 +92,7 @@ public class StepsUserRegistration extends BaseTest {
 	}
 
 	@Given(value = "User goes to Landing page")
-	public void Landing_Page() {
+	public void Landing_Page() throws InterruptedException {
 		gender = page.landingPage();
 	}
 
@@ -211,12 +209,12 @@ public class StepsUserRegistration extends BaseTest {
 
 	@And(value = "User goes four week dieting chart")
 	public void user_goes_four_week_dieting_chart() {
-		mail = dietingPlan.your4WeekKetoDietingPlan();
+		dietPlan = dietingPlan.validEmail();
 	}
 
 	@Then(value = "User entrs mail")
 	public void User_enters_mail_without_fakr() {
-		dietPlan = mail.validEmail();
+		dietPlan = dietingPlan.blankEmail();
 	}
 
 	@And(value = "User goes on diet plan page")

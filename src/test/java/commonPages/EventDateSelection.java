@@ -14,14 +14,14 @@ public class EventDateSelection {
 	}
 	@FindBy(xpath="//input[@placeholder='dd/mm/yyyy']")
 	WebElement ele1;
-	@FindBy(xpath="//a[text()='  Skip this question.']")
+	@FindBy(xpath="//a[text()='  Skip']")
 	WebElement ele2;
 	@FindBy(linkText="Continue")
 	WebElement ele;
 	
 	public OneAndOnlyPlan dateSelection() throws InterruptedException {
 		Thread.sleep(2000);
-		ele1.sendKeys("29-03-2024");
+		ele1.sendKeys("15-04-2024");
 		ele.click();
 		plan=new OneAndOnlyPlan(driver);
 		return plan;

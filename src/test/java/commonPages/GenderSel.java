@@ -12,9 +12,9 @@ public class GenderSel {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//p[text()='Men']")
+	@FindBy(xpath="//p[text()='Man']")
 	WebElement men;
-	@FindBy(xpath="//p[text()='Women']")
+	@FindBy(xpath="//p[text()='Woman']")
 	WebElement women;
 	public ChooseBodyType genderMen() {
 		men.click();
