@@ -5,9 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utilities.UtilisClass;
 
 
-public class LandingPage {
+
+public class LandingPage extends UtilisClass{
 	
 	public WebDriver driver;
 	public GenderSel gender;
@@ -15,11 +17,12 @@ public class LandingPage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(linkText="Take the Quiz")
+	@FindBy(xpath="//a[text()='Take the Quiz '] ")
 	WebElement ele;
 	
     public GenderSel landingPage() throws InterruptedException {
     	Thread.sleep(2000);
+    	actionClass(driver,0,200);
     	ele.click();
     	gender=new  GenderSel(driver);
     	return gender;

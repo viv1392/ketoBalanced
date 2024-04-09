@@ -26,7 +26,7 @@ public class BaseClass extends ReadConfigFile {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--incognito");
 			//options.addArguments("--headless");
-			options.addArguments("--disable-notifications");
+			options.addArguments("--enable-notifications");
 			driver = new ChromeDriver(options);
 		}
 		if (browser.equalsIgnoreCase("edge")) {

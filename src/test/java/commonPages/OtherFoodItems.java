@@ -26,6 +26,8 @@ public class OtherFoodItems extends UtilisClass {
 	WebElement ele5;
 	@FindBy(xpath="//span[text()='Strawberry']")
 	WebElement ele6;
+	@FindBy(xpath="//span[text()='I eat all']")
+	WebElement ele7;
 	@FindBy(linkText="Continue")
 	WebElement ele;
 	public HowActiveAreYou non_veg() {
@@ -53,6 +55,12 @@ public class OtherFoodItems extends UtilisClass {
 		ele4.click();
 		ele5.click();
 		ele6.click();
+		ele.click();
+		activeAre=new  HowActiveAreYou(driver);
+		return activeAre;
+	}
+	public HowActiveAreYou eatAll() {
+		ele7.click();
 		ele.click();
 		activeAre=new  HowActiveAreYou(driver);
 		return activeAre;

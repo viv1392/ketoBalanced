@@ -26,8 +26,9 @@ public class WantToAchieve extends UtilisClass{
 	 WebElement ele5;
 	public ContinuePage wantToAchieve() {
 		ele1.click();
+		actionClass(driver,0,200);
 		ele2.click();
-		actionClass(driver,0,800);
+		actionClass(driver,201,800);
 		ele3.click();
 		ele4.click();
 		ele5.click();

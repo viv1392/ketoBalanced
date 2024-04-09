@@ -10,6 +10,7 @@ import commonPages.ChoosePlan;
 import commonPages.ChooseYourTargetZones;
 import commonPages.ConsiderYourPerfectWeight;
 import commonPages.ContinuePage;
+import commonPages.DiseaseClass;
 import commonPages.EventDateSelection;
 import commonPages.GenderSel;
 import commonPages.GotIt;
@@ -48,6 +49,7 @@ public class UserReWomenTest extends BaseClass {
 	HowYouSpendYourDay yourDay;
 	ItIsPossibleToSelectMultipleAnswers answers;
 	ShedSomeExtraWeight extraWeight;
+	DiseaseClass disease;
 	HowTallAreYou tall;
 	WhatIsYourCurrentWeight currentWt;
 	ConsiderYourPerfectWeight targetWeight;
@@ -84,7 +86,8 @@ public class UserReWomenTest extends BaseClass {
 			answers.quitEatingSweets();
 			answers.softDrinks();
 			extraWeight = answers.continueButton();
-			tall = extraWeight.justWant();
+			disease = extraWeight.justWant();
+			tall=disease.disease();
 			currentWt = tall.heightCm();
 			targetWeight = currentWt.weightKG();
 			age = targetWeight.tarWeightKG();
@@ -122,7 +125,8 @@ public class UserReWomenTest extends BaseClass {
 			answers.saltIntakeIsMore();
 			answers.softDrinks();
 			extraWeight = answers.continueButton();
-			tall = extraWeight.iWant();
+			disease = extraWeight.justWant();
+			tall=disease.noDisease();
 			currentWt = tall.heightCm();
 			targetWeight = currentWt.weightKG();
 			age = targetWeight.tarWeightKG();
@@ -156,7 +160,8 @@ public class UserReWomenTest extends BaseClass {
 			yourDay = activeAre.iExerciseTimesWeek();
 			answers = yourDay.atWorkplace();
 			extraWeight = answers.noneOfTheAbove();
-			tall = extraWeight.asPossible();
+			disease = extraWeight.justWant();
+			tall=disease.disease();
 			currentWt = tall.heightCm();
 			targetWeight = currentWt.weightKG();
 			age = targetWeight.tarWeightKG();
@@ -195,7 +200,8 @@ public class UserReWomenTest extends BaseClass {
 			answers.quitEatingSweets();
 			answers.softDrinks();
 			extraWeight = answers.continueButton();
-			tall = extraWeight.iWant();
+			disease = extraWeight.justWant();
+			tall=disease.noDisease();
 			currentWt = tall.heightFeet();
 			targetWeight = currentWt.weightKG();
 			age = targetWeight.tarWeightKG();
@@ -234,7 +240,8 @@ public class UserReWomenTest extends BaseClass {
 			answers.saltIntakeIsMore();
 			answers.softDrinks();
 			extraWeight = answers.continueButton();
-			tall = extraWeight.iWant();
+			disease = extraWeight.justWant();
+			tall=disease.disease();
 			currentWt = tall.heightFeet();
 			targetWeight = currentWt.weightKG();
 			age = targetWeight.tarWeightKG();
@@ -268,7 +275,8 @@ public class UserReWomenTest extends BaseClass {
 			yourDay = activeAre.iExerciseTimesWeek();
 			answers = yourDay.atWorkplace();
 			extraWeight = answers.noneOfTheAbove();
-			tall = extraWeight.iWant();
+			disease = extraWeight.justWant();
+			tall=disease.noDisease();
 			currentWt = tall.heightFeet();
 			targetWeight = currentWt.weightKG();
 			age = targetWeight.tarWeightKG();
@@ -307,7 +315,8 @@ public class UserReWomenTest extends BaseClass {
 			answers.quitEatingSweets();
 			answers.softDrinks();
 			extraWeight = answers.continueButton();
-			tall = extraWeight.asPossible();
+			disease = extraWeight.justWant();
+			tall=disease.disease();
 			currentWt = tall.heightCm();
 			targetWeight = currentWt.weightLbs();
 			age = targetWeight.tarWeightLbs();
@@ -345,7 +354,8 @@ public class UserReWomenTest extends BaseClass {
 			answers.saltIntakeIsMore();
 			answers.softDrinks();
 			extraWeight = answers.continueButton();
-			tall = extraWeight.iWant();
+			disease = extraWeight.justWant();
+			tall=disease.noDisease();
 			currentWt = tall.heightCm();
 			targetWeight = currentWt.weightLbs();
 			age = targetWeight.tarWeightLbs();
@@ -380,7 +390,8 @@ public class UserReWomenTest extends BaseClass {
 			yourDay = activeAre.iExerciseTimesWeek();
 			answers = yourDay.atWorkplace();
 			extraWeight = answers.noneOfTheAbove();
-			tall = extraWeight.iWant();
+			disease = extraWeight.justWant();
+			tall=disease.disease();
 			currentWt = tall.heightCm();
 			targetWeight = currentWt.weightLbs();
 			age = targetWeight.tarWeightLbs();
@@ -419,7 +430,8 @@ public class UserReWomenTest extends BaseClass {
 			answers.quitEatingSweets();
 			answers.softDrinks();
 			extraWeight = answers.continueButton();
-			tall = extraWeight.asPossible();
+			disease = extraWeight.justWant();
+			tall=disease.disease();
 			currentWt = tall.heightCm();
 			targetWeight = currentWt.weightLbs();
 			age = targetWeight.tarWeightLbs();
@@ -457,7 +469,8 @@ public class UserReWomenTest extends BaseClass {
 			answers.quitEatingSweets();
 			answers.softDrinks();
 			extraWeight = answers.continueButton();
-			tall = extraWeight.justWant();
+			disease = extraWeight.justWant();
+			tall=disease.noDisease();
 			currentWt = tall.withoutFakerheightCm();
 			targetWeight = currentWt.withoutFakerweightLbs();
 			age = targetWeight.withoutFakertarWeightLbs();
@@ -495,7 +508,8 @@ public class UserReWomenTest extends BaseClass {
 			answers.saltIntakeIsMore();
 			answers.softDrinks();
 			extraWeight = answers.continueButton();
-			tall = extraWeight.iWant();
+			disease = extraWeight.justWant();
+			tall=disease.disease();
 			currentWt = tall.withoutFakerheightCm();
 			targetWeight = currentWt.withoutFakeeweightKG();
 			age = targetWeight.withoutFakertarWeightKG();
@@ -529,7 +543,8 @@ public class UserReWomenTest extends BaseClass {
 			yourDay = activeAre.iExerciseTimesWeek();
 			answers = yourDay.atWorkplace();
 			extraWeight = answers.noneOfTheAbove();
-			tall = extraWeight.asPossible();
+			disease = extraWeight.justWant();
+			tall=disease.noDisease();
 			currentWt = tall.withoutFakerheightFeet();
 			targetWeight = currentWt.withoutFakerweightLbs();
 			age = targetWeight.tarWeightLbs();
@@ -545,5 +560,115 @@ public class UserReWomenTest extends BaseClass {
 			chooseplan = gotit.goIt();
 			chooseplan.choosePlan();
 		}
+		@Test(priority=2601)
+		public void userRegistrationWomenNonVegEatAll() throws Throwable {
+			gender = page.landingPage();
+			type = gender.genderWomen();
+			desiredBody = type.choosebodyTypeAv();
+			achieve = desiredBody.bodytypeYouWantBulk();
+			conti = achieve.wantToAchieve();
+			zone = conti.continuePage();
+			happy = zone.yourTargetZone();
+			mealpreparation = happy.lastHappyWithYourWeight();
+			meat = mealpreparation.mealPreparationEachDay();
+			veggies = meat.eatAllMeat();
+			foodItems = veggies.eatAllVeggies();
+			activeAre = foodItems.eatAll();
+			yourDay = activeAre.almostNoPhysicalActivity();
+			answers = yourDay.atWorkplace();
+			answers.qualitySleep();
+			answers.atNight();
+			answers.saltIntakeIsMore();
+			answers.quitEatingSweets();
+			answers.softDrinks();
+			extraWeight = answers.continueButton();
+			disease = extraWeight.justWant();
+			tall=disease.disease();
+			currentWt = tall.heightCm();
+			targetWeight = currentWt.weightKG();
+			age = targetWeight.tarWeightKG();
+			wellness = age.yourAge();
+			occasions = wellness.overallWellness();
+			date = occasions.vacation();
+			plan = date.skipThisQuestion();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
+			backPlans = planReady.oneMonthPlan();
+			gotit = backPlans.backToPlan();
+			chooseplan = gotit.goIt();
+			chooseplan.choosePlan();
+		}
+		@Test(priority = 2602)
+		public void userRegistrationWomenVegEatAll() throws Throwable {
+			gender = page.landingPage();
+			type = gender.genderWomen();
+			desiredBody = type.choosebodyTypeVol();
+			achieve = desiredBody.bodytypeYouWantCut();
+			conti = achieve.wantToAchieve();
+			zone = conti.continuePage();
+			happy = zone.yourTargetZone();
+			mealpreparation = happy.lastHappyWithYourWeight();
+			meat = mealpreparation.mealPreparationEachDay();
+			veggies = meat.vegetarian();
+			foodItems = veggies.eatAllVeggies();
+			activeAre = foodItems.eatAll();
+			yourDay = activeAre.iOftenGoForWalk();
+			answers = yourDay.iSpendPrettyMuchTimeOnFoot();
+			answers.qualitySleep();
+			answers.atNight();
+			answers.saltIntakeIsMore();
+			answers.softDrinks();
+			extraWeight = answers.continueButton();
+			disease = extraWeight.justWant();
+			tall=disease.noDisease();
+			currentWt = tall.heightCm();
+			targetWeight = currentWt.weightKG();
+			age = targetWeight.tarWeightKG();
+			wellness = age.yourAge();
+			occasions = wellness.overallWellness();
+			date = occasions.wedding();
+			plan = date.skipThisQuestion();
+			week = plan.oneAndOnlyPlan();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
+			backPlans = planReady.oneMonthPlan();
+			gotit = backPlans.backToPlan();
+			chooseplan = gotit.goIt();
+			chooseplan.choosePlan();
+		}
 
+		@Test(priority = 2603)
+		public void userRegistrationWomenVeganEatAll() throws Throwable {
+			gender = page.landingPage();
+			type = gender.genderWomen();
+			desiredBody = type.choosebodyTypeAv();
+			achieve = desiredBody.bodytypeYouWantFit();
+			conti = achieve.wantToAchieve();
+			zone = conti.continuePage();
+			happy = zone.yourTargetZone();
+			mealpreparation = happy.lastHappyWithYourWeight();
+			meat = mealpreparation.mealPreparationEachDay();
+			veggies = meat.vegan();
+			foodItems = veggies.eatAllVeggies();
+			activeAre = foodItems.eatAll();
+			yourDay = activeAre.iExerciseTimesWeek();
+			answers = yourDay.atWorkplace();
+			extraWeight = answers.noneOfTheAbove();
+			disease = extraWeight.justWant();
+			tall=disease.disease();
+			currentWt = tall.heightCm();
+			targetWeight = currentWt.weightKG();
+			age = targetWeight.tarWeightKG();
+			wellness = age.yourAge();
+			occasions = wellness.overallWellness();
+			date=occasions.sportingEvent();
+			plan = date.skipThisQuestion();
+			week = plan.oneAndOnlyPlan();
+			week = plan.oneAndOnlyPlan();
+			planReady = week.validEmail();
+			backPlans = planReady.oneMonthPlan();
+			gotit = backPlans.backToPlan();
+			chooseplan = gotit.goIt();
+			chooseplan.choosePlan();
+		}
 }

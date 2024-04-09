@@ -14,6 +14,7 @@ import commonPages.ChoosePlan;
 import commonPages.ChooseYourTargetZones;
 import commonPages.ConsiderYourPerfectWeight;
 import commonPages.ContinuePage;
+import commonPages.DiseaseClass;
 import commonPages.GenderSel;
 import commonPages.GotIt;
 import commonPages.HowActiveAreYou;
@@ -59,6 +60,7 @@ public class StepsUserRegistration extends BaseClass {
 	HowYouSpendYourDay day;
 	ItIsPossibleToSelectMultipleAnswers multi;
 	ShedSomeExtraWeight extraWeight;
+	DiseaseClass disease;
 	HowTallAreYou tall;
 	WhatIsYourCurrentWeight currentWeight;
 	ConsiderYourPerfectWeight perfectWeight;
@@ -103,7 +105,7 @@ public class StepsUserRegistration extends BaseClass {
 
 	@Then(value = "User choose current body type")
 	public void userCurrentbodytype() {
-		bodyType = type.choosebodyTypeVol();
+		bodyType = type.choosebodyTypeEx();
 
 	}
 
@@ -169,7 +171,8 @@ public class StepsUserRegistration extends BaseClass {
 
 	@And(value = "User  select  Just Want to See how Keto Diet helps in weight loss.")
 	public void User_select_Just_Want_to_See_how_Keto_Diet_helps_in_weight_loss() {
-		tall = extraWeight.asPossible();
+		disease = extraWeight.asPossible();
+		tall=disease.noDisease();
 	}
 
 	@Then(value = "User enters the height in feet and inch without faker")
@@ -244,7 +247,7 @@ public class StepsUserRegistration extends BaseClass {
 
 	@Then("User choose current body type as extra")
 	public void user_choose_current_body_type_as_extra() {
-		bodyType = type.choosebodyTypeEx();
+		bodyType = type.choosebodyTypeVol();
 	}
 
 	@Then("User navigated to meal preferences and choose vegetarian")

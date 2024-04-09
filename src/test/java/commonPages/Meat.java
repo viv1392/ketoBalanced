@@ -30,33 +30,37 @@ public class Meat extends UtilisClass {
 	WebElement ele7;
 	@FindBy(xpath="//span[text()='I am Vegan']")
 	WebElement ele8;
+	@FindBy(xpath="//span[text()='I eat all']")
+	WebElement ele9;
 	@FindBy(linkText="Continue")
 	WebElement ele;
 	
 	public Veggies meat() throws InterruptedException {
+		Thread.sleep(1000);
+		actionClass(driver,0,900);
 		ele1.click();
-		ele2.click();
 		ele3.click();
-		actionClass(driver,0,600);
-		ele4.click();
 		ele5.click();
-		ele6.click();
 		ele.click();
 		veggies= new Veggies(driver);
 		return veggies;
 	}
 	public Veggies vegetarian() throws InterruptedException {
-		Thread.sleep(2000);
-		actionClass(driver,0,1500);
+		Thread.sleep(1000);
 		ele7.click();
 		ele.click();
 		veggies= new Veggies(driver);
 		return veggies;
 	}
 	public Veggies vegan() throws InterruptedException {
-		Thread.sleep(2000);
-		actionClass(driver,0,1500);
+		Thread.sleep(1000);
 		ele8.click();
+		ele.click();
+		veggies= new Veggies(driver);
+		return veggies;
+	}
+	public Veggies eatAllMeat() {
+		ele9.click();
 		ele.click();
 		veggies= new Veggies(driver);
 		return veggies;

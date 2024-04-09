@@ -22,18 +22,25 @@ public class Veggies extends UtilisClass{
 	WebElement ele3;
 	@FindBy(xpath="//span[text()='Spinach']")
 	WebElement ele4;
+	@FindBy(xpath="//span[text()='I eat all']")
+	WebElement ele5;
 	@FindBy(linkText="Continue")
 	WebElement ele;
 	public OtherFoodItems veggies() {
 		ele1.click();
+		actionClass(driver,0,1000);
 		ele2.click();
-		actionClass(driver,0,800);
 		ele3.click();
-		ele4.click();
 		ele.click();
-		 foodItems=new OtherFoodItems(driver);
-		 return foodItems;
+		foodItems=new OtherFoodItems(driver);
+		return foodItems;
 		
+	}
+	public OtherFoodItems eatAllVeggies() {
+		ele5.click();
+		ele.click();
+		foodItems=new OtherFoodItems(driver);
+		return foodItems;
 	}
 
 

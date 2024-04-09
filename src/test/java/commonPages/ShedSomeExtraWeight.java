@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ShedSomeExtraWeight {
 	WebDriver driver;
-	public  HowTallAreYou tall;
+	public  DiseaseClass disease;
 	public ShedSomeExtraWeight(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
@@ -21,20 +21,20 @@ public class ShedSomeExtraWeight {
 	@FindBy(xpath="//div[@class='box']")
 	List<WebElement> ele3;
 	
-	public HowTallAreYou justWant() {
+	public DiseaseClass justWant() {
 		ele1.click();
-		tall=new HowTallAreYou(driver);
-		return tall;
+		disease=new DiseaseClass(driver);
+		return disease;
 	}
-	public HowTallAreYou iWant() {
+	public DiseaseClass iWant() {
 		ele2.click();
-		tall=new HowTallAreYou(driver);
-		return tall;
+		disease=new DiseaseClass(driver);
+		return disease;
 	}
-	public HowTallAreYou  asPossible() {
+	public DiseaseClass  asPossible() {
 		ele3.get(2).click();
-		tall=new HowTallAreYou(driver);
-		return tall;
+		disease=new DiseaseClass(driver);
+		return disease;
 	}
 
 }

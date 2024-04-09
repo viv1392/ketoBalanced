@@ -3,13 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="userRegistrationTest.UserReMenTest">
+      <class name="userRegistrationTest.UserReWomenTest">
         <methods>
           <include name="tearDown"/>
           <include name="landingPageUrl"/>
-          <include name="userRegistrationMenNonVeg"/>
+          <include name="userRegistrationWoMenVegwitoutFaker"/>
         </methods>
-      </class> <!-- userRegistrationTest.UserReMenTest -->
+      </class> <!-- userRegistrationTest.UserReWomenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

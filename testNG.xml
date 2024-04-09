@@ -8,7 +8,6 @@
     <classes>
       <class name="userRegistrationTest.UserReMenTest"/>
       <class name="userRegistrationTest.UserReWomenTest"/>
-      <class name="baseComponent.BaseClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -8,23 +8,22 @@
     <classes>
       <class name="userRegistrationTest.UserReMenTest">
         <methods>
-          <include name="weightLbsVeget"/>
+          <include name="weightLbsVegan"/>
           <include name="heightInFeetvegan"/>
-          <include name="heightInFtVeget"/>
           <include name="tearDown"/>
           <include name="landingPageUrl"/>
           <include name="heightInFtNonVeg"/>
+          <include name="userWithBlankdEmaiIdMen"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReMenTest -->
       <class name="userRegistrationTest.UserReWomenTest">
         <methods>
-          <include name="heightInFtNonVegWomen"/>
           <include name="tearDown"/>
           <include name="heightInFtVegetWomen"/>
           <include name="landingPageUrl"/>
           <include name="userRegistrationWoMenVegwitoutFaker"/>
           <include name="heightInFeetveganWomen"/>
-          <include name="weightLbsVegetWomen"/>
+          <include name="userWithBlankdEmaiIdWomen"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReWomenTest -->
     </classes>

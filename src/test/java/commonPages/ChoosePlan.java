@@ -21,5 +21,6 @@ public class ChoosePlan extends UtilisClass {
 		actionClass(driver,0,1500);
 		Thread.sleep(1000);
 		ele.click();
-	}
+		Thread.sleep(2000);
+		}
 }
