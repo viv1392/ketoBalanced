@@ -33,7 +33,13 @@ public class HowTallAreYou extends UtilisClass {
 			 int z=Integer.parseInt(x);
 			 int k=190-z;
 			 String ht=Integer.toString(k);
-			ele1.sendKeys(ht);
+			 if(k>135 && k<200) {
+				 ele1.sendKeys(ht); 
+			 }
+			 else {
+				 ele1.sendKeys("182");
+			 }
+			
 			Assert.assertEquals(popUpAtScr, msg);
 			ele.click();
 			currentWt=new WhatIsYourCurrentWeight(driver);
@@ -42,7 +48,13 @@ public class HowTallAreYou extends UtilisClass {
 		public WhatIsYourCurrentWeight heightFeet() {
 			ele2.click();
 			String x=fkr.number().digits(1);
+			int z=Integer.parseInt(x);
+			if(z>=3 && z<=6) {
 			ele3.sendKeys(x);
+			}
+			else {
+				ele3.sendKeys("5");
+			}
 			Assert.assertEquals(popUpAtScr, msg);
 			String y=fkr.number().digits(1);
 			ele4.sendKeys(y);

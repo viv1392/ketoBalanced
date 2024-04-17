@@ -6,26 +6,21 @@
   </listeners>
   <test parallel="none" name="Test(failed)">
     <classes>
-      <class name="userRegistrationTest.UserReMenTest">
-        <methods>
-          <include name="weightLbsVegan"/>
-          <include name="heightInFeetvegan"/>
-          <include name="tearDown"/>
-          <include name="landingPageUrl"/>
-          <include name="heightInFtNonVeg"/>
-          <include name="userWithBlankdEmaiIdMen"/>
-        </methods>
-      </class> <!-- userRegistrationTest.UserReMenTest -->
       <class name="userRegistrationTest.UserReWomenTest">
         <methods>
           <include name="tearDown"/>
-          <include name="heightInFtVegetWomen"/>
           <include name="landingPageUrl"/>
           <include name="userRegistrationWoMenVegwitoutFaker"/>
-          <include name="heightInFeetveganWomen"/>
           <include name="userWithBlankdEmaiIdWomen"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReWomenTest -->
+      <class name="userRegistrationTest.UserReMenTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="landingPageUrl"/>
+          <include name="userWithBlankdEmaiIdMen"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReMenTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

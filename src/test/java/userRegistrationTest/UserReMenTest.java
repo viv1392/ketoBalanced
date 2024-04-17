@@ -560,7 +560,7 @@ public class UserReMenTest extends BaseClass {
 		chooseplan = gotit.goIt();
 		chooseplan.choosePlan();
 	}
-	@Test(priority=1301)
+	@Test(priority=1301, groups="eatAll")
 	public void userRegistrationMenNonVegEatAll() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
@@ -598,7 +598,7 @@ public class UserReMenTest extends BaseClass {
 		chooseplan = gotit.goIt();
 		chooseplan.choosePlan();
 	}
-	@Test(priority = 1302)
+	@Test(priority = 1302,groups="eatAll")
 	public void userRegistrationMenVegEatAll() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
@@ -637,7 +637,7 @@ public class UserReMenTest extends BaseClass {
 		chooseplan.choosePlan();
 	}
 
-	@Test(priority = 1303)
+	@Test(priority = 1303,groups="eatAll")
 	public void userRegistrationMenVeganEatAll() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();

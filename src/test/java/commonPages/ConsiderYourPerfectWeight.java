@@ -28,7 +28,12 @@ public class ConsiderYourPerfectWeight extends UtilisClass {
 		int y=Integer.parseInt(x);
 		int z=320-y;
 		String k=Integer.toString(z);
+		if(z<300) {
 		ele1.sendKeys(k);
+		}
+		else {
+	    ele1.sendKeys("240");
+		}
 		Assert.assertEquals(msgScr, msg);
 		ele.click();
 		age=new WhatIsYourAge(driver);
@@ -39,7 +44,13 @@ public class ConsiderYourPerfectWeight extends UtilisClass {
 		int y=Integer.parseInt(x);
 		int z=110-y;
 		String k=Integer.toString(z);
-		ele3.sendKeys(k);
+		if(z<100) {
+			ele3.sendKeys(k);
+		}
+		else {
+			ele3.sendKeys("80");
+		}
+		
 		Assert.assertEquals(msgScr, msg);
 		ele.click();
 		age=new WhatIsYourAge(driver);

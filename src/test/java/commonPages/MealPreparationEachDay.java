@@ -19,5 +19,4 @@ public class MealPreparationEachDay {
 		meat= new Meat(driver);
 		return meat;
 	}
-
 }

@@ -30,6 +30,5 @@ public class EventDateSelection {
 		ele2.click();
 		plan=new OneAndOnlyPlan(driver);
 		return plan;
-		
 	}
 }
