@@ -18,7 +18,8 @@ import utilities.ReadConfigFile;
 public class BaseClass extends ReadConfigFile {
    public WebDriver driver;
 	public LandingPage page;
-
+	
+	
 	public WebDriver browserInitilize() throws IOException {
 		String browser = fileReading();
 		if (browser.equalsIgnoreCase("chrome")) {
