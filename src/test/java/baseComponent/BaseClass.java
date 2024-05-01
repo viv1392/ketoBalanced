@@ -39,7 +39,7 @@ public class BaseClass extends ReadConfigFile {
 		return driver;
 	}
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public LandingPage landingPageUrl() throws Throwable {
 		String Url = Url();
 		driver = browserInitilize();
@@ -48,7 +48,7 @@ public class BaseClass extends ReadConfigFile {
 		return page;
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void tearDown() {
 		driver.manage().deleteAllCookies();
 		driver.quit();
