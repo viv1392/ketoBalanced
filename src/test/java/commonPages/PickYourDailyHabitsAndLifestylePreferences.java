@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import utilities.UtilisClass;
 
-public class ItIsPossibleToSelectMultipleAnswers extends UtilisClass {
+public class PickYourDailyHabitsAndLifestylePreferences extends UtilisClass {
 	WebDriver driver;
 	public ShedSomeExtraWeight extraWeight;
-	public ItIsPossibleToSelectMultipleAnswers(WebDriver driver) {
+	public PickYourDailyHabitsAndLifestylePreferences(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -36,6 +36,7 @@ public class ItIsPossibleToSelectMultipleAnswers extends UtilisClass {
 		ele2.click();
 	}
 	public void saltIntakeIsMore() {
+		actionClass(driver,0,200);
 		ele3.click();
 	}
 	public void quitEatingSweets() throws InterruptedException {

@@ -9,7 +9,7 @@ import utilities.UtilisClass;
 
 public class HowYouSpendYourDay extends UtilisClass {
    WebDriver driver;
-   public ItIsPossibleToSelectMultipleAnswers answers;
+   public PickYourDailyHabitsAndLifestylePreferences answers;
    public HowYouSpendYourDay(WebDriver driver) {
 	   this.driver=driver;
 	   PageFactory.initElements(driver, this);
@@ -20,20 +20,20 @@ public class HowYouSpendYourDay extends UtilisClass {
 	WebElement ele2;
 	@FindBy(xpath="//span[text()='I stay at home very often']")
 	WebElement ele3;
-	public ItIsPossibleToSelectMultipleAnswers atWorkplace() {
+	public PickYourDailyHabitsAndLifestylePreferences atWorkplace() {
 		ele1.click();
-		answers= new ItIsPossibleToSelectMultipleAnswers(driver);
+		answers= new PickYourDailyHabitsAndLifestylePreferences(driver);
 		return answers;
 	}
-	public ItIsPossibleToSelectMultipleAnswers iSpendPrettyMuchTimeOnFoot() {
+	public PickYourDailyHabitsAndLifestylePreferences iSpendPrettyMuchTimeOnFoot() {
 		ele2.click();
-		answers= new ItIsPossibleToSelectMultipleAnswers(driver);
+		answers= new PickYourDailyHabitsAndLifestylePreferences(driver);
 		return answers;
 	}
-	public ItIsPossibleToSelectMultipleAnswers iStayAtHomeVeryOften() {
+	public PickYourDailyHabitsAndLifestylePreferences iStayAtHomeVeryOften() {
 		actionClass(driver,0,800);
 		ele3.click();
-		answers= new ItIsPossibleToSelectMultipleAnswers(driver);
+		answers= new PickYourDailyHabitsAndLifestylePreferences(driver);
 		return answers;
 	}
 }

@@ -17,7 +17,7 @@ import commonPages.GotIt;
 import commonPages.HowActiveAreYou;
 import commonPages.HowTallAreYou;
 import commonPages.HowYouSpendYourDay;
-import commonPages.ItIsPossibleToSelectMultipleAnswers;
+import commonPages.PickYourDailyHabitsAndLifestylePreferences;
 import commonPages.LastHappyWithYourWeight;
 import commonPages.MealPreparationEachDay;
 import commonPages.Meat;
@@ -47,7 +47,7 @@ public class UserReMenTest extends BaseClass {
 	OtherFoodItems foodItems;
 	HowActiveAreYou activeAre;
 	HowYouSpendYourDay yourDay;
-	ItIsPossibleToSelectMultipleAnswers answers;
+	PickYourDailyHabitsAndLifestylePreferences answers;
 	ShedSomeExtraWeight extraWeight;
 	DiseaseClass disease;
 	HowTallAreYou tall;
@@ -64,7 +64,7 @@ public class UserReMenTest extends BaseClass {
 	GotIt gotit;
 	ChoosePlan chooseplan;
 
-	@Test(priority = 1)
+	@Test(priority = 1,groups="functionality")
 	public void userRegistrationMenNonVeg() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
@@ -103,7 +103,7 @@ public class UserReMenTest extends BaseClass {
 		chooseplan.choosePlan();
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2 ,groups="functionality")
 	public void userRegistrationMenVeg() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
@@ -142,7 +142,7 @@ public class UserReMenTest extends BaseClass {
 		chooseplan.choosePlan();
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3 ,groups="functionality")
 	public void userRegistrationMenVegan() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
