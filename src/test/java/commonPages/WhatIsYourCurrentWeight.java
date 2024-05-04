@@ -66,5 +66,36 @@ public class WhatIsYourCurrentWeight extends UtilisClass {
 		targetWeight=new ConsiderYourPerfectWeight(driver);
 		return targetWeight;
 	}
+	public ConsiderYourPerfectWeight NegativeTestweightLbs() {
+		ele1.sendKeys("099");
+		Assert.assertEquals(msgScr, msg);
+		ele.click();
+		targetWeight=new ConsiderYourPerfectWeight(driver);
+		return targetWeight;
+	}
+	public ConsiderYourPerfectWeight negativeValueweightKG() {
+		ele2.click();
+		ele3.sendKeys("095");
+		Assert.assertEquals(msgScr, msg);
+		ele.click();
+		targetWeight=new ConsiderYourPerfectWeight(driver);
+		return targetWeight;
+	}
+	public ConsiderYourPerfectWeight invalidCurrrWeightKG() {
+		ele2.click();
+		ele3.sendKeys("030");
+		Assert.assertEquals(msgScr, msg);
+		ele.click();
+		targetWeight=new ConsiderYourPerfectWeight(driver);
+		return targetWeight;
+	}
+	public ConsiderYourPerfectWeight invalidCurrweightLbs() {
+		ele1.sendKeys("080");
+		Assert.assertEquals(msgScr, msg);
+		ele.click();
+		targetWeight=new ConsiderYourPerfectWeight(driver);
+		return targetWeight;
+	}
+	
 
 }

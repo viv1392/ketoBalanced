@@ -70,5 +70,33 @@ public class ConsiderYourPerfectWeight extends UtilisClass {
 		age=new WhatIsYourAge(driver);
 		return age;
 	}
+	public WhatIsYourAge negativePerfectWeightLbs() {
+		ele1.sendKeys("090");
+		Assert.assertEquals(msgScr, msg);
+		ele.click();
+		age=new WhatIsYourAge(driver);
+		return age;
+	}
+	public WhatIsYourAge negativePerfectWeightKG() {
+		ele3.sendKeys("085");
+		Assert.assertEquals(msgScr, msg);
+		ele.click();
+		age=new WhatIsYourAge(driver);
+		return age;
+	}
+	public WhatIsYourAge invalidPerfectWeightKG() {
+		ele3.sendKeys("030");
+		Assert.assertEquals(msgScr, msg);
+		ele.click();
+		age=new WhatIsYourAge(driver);
+		return age;
+	}
+	public WhatIsYourAge invalidPerfectWeightLbs() {
+		ele1.sendKeys("070");
+		Assert.assertEquals(msgScr, msg);
+		ele.click();
+		age=new WhatIsYourAge(driver);
+		return age;
+	}
 
 }
