@@ -80,8 +80,27 @@ public class HowTallAreYou extends UtilisClass {
 			currentWt=new WhatIsYourCurrentWeight(driver);
 			return currentWt;
 		}
+		public WhatIsYourCurrentWeight heightCmPreDef() {
+			 ele1.sendKeys("0180");
+			 ele.click();
+			 currentWt=new WhatIsYourCurrentWeight(driver);
+				return currentWt;
+			
+		}
+		public WhatIsYourCurrentWeight negheightCmPreDef() {
+			 ele1.sendKeys("120");
+			 ele.click();
+			 currentWt=new WhatIsYourCurrentWeight(driver);
+				return currentWt;
 		
-	
+		} 
+		public WhatIsYourCurrentWeight negativeHeightTesFt() {
+			ele2.click();
+			ele3.sendKeys("05");
+			ele4.sendKeys("20");
+			currentWt=new WhatIsYourCurrentWeight(driver);
+			return currentWt;
+		}
 	
 
 }

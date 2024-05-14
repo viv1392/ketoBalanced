@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="landingPageUrl"/>
-          <include name="userRegistrationWoMenVegwitoutFaker"/>
+          <include name="invalidWeightLbVegEatAllWomen"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReWomenTest -->
     </classes>

@@ -17,7 +17,7 @@ import commonPages.GotIt;
 import commonPages.HowActiveAreYou;
 import commonPages.HowTallAreYou;
 import commonPages.HowYouSpendYourDay;
-import commonPages.ItIsPossibleToSelectMultipleAnswers;
+import commonPages.PickYourDailyHabitsAndLifestylePreferences;
 import commonPages.LastHappyWithYourWeight;
 import commonPages.MealPreparationEachDay;
 import commonPages.Meat;
@@ -47,7 +47,7 @@ public class UserReMenTest extends BaseClass {
 	OtherFoodItems foodItems;
 	HowActiveAreYou activeAre;
 	HowYouSpendYourDay yourDay;
-	ItIsPossibleToSelectMultipleAnswers answers;
+	PickYourDailyHabitsAndLifestylePreferences answers;
 	ShedSomeExtraWeight extraWeight;
 	DiseaseClass disease;
 	HowTallAreYou tall;
@@ -64,7 +64,7 @@ public class UserReMenTest extends BaseClass {
 	GotIt gotit;
 	ChoosePlan chooseplan;
 
-	@Test(priority = 1)
+	@Test(priority = 1,groups="functionality")
 	public void userRegistrationMenNonVeg() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
@@ -103,7 +103,7 @@ public class UserReMenTest extends BaseClass {
 		chooseplan.choosePlan();
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2 ,groups="functionality")
 	public void userRegistrationMenVeg() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
@@ -142,7 +142,7 @@ public class UserReMenTest extends BaseClass {
 		chooseplan.choosePlan();
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3 ,groups="functionality")
 	public void userRegistrationMenVegan() throws Throwable {
 		gender = page.landingPage();
 		type = gender.genderMen();
@@ -671,4 +671,265 @@ public class UserReMenTest extends BaseClass {
 		chooseplan = gotit.goIt();
 		chooseplan.choosePlan();
 	}
+	@Test(groups="negative")
+	public void userRegistrationMenNonVegNegHeightCmPRE() throws Throwable {
+		gender = page.landingPage();
+		type = gender.genderMen();
+		desiredBody = type.choosebodyTypeAv();
+		achieve = desiredBody.bodytypeYouWantBulk();
+		conti = achieve.wantToAchieve();
+		zone = conti.continuePage();
+		happy = zone.yourTargetZone();
+		mealpreparation = happy.lastHappyWithYourWeight();
+		meat = mealpreparation.mealPreparationEachDay();
+		veggies = meat.meat();
+		foodItems = veggies.veggies();
+		activeAre = foodItems.non_veg();
+		yourDay = activeAre.almostNoPhysicalActivity();
+		answers = yourDay.atWorkplace();
+		answers.qualitySleep();
+		answers.atNight();
+		answers.saltIntakeIsMore();
+		answers.quitEatingSweets();
+		answers.softDrinks();
+		extraWeight = answers.continueButton();
+		disease = extraWeight.justWant();
+		tall=disease.disease();
+		currentWt = tall.heightCmPreDef();
+		targetWeight = currentWt.weightKG();
+		age = targetWeight.tarWeightKG();
+		wellness = age.yourAge();
+		occasions = wellness.overallWellness();
+		date = occasions.vacation();
+		plan = date.skipThisQuestion();
+		week = plan.oneAndOnlyPlan();
+		planReady = week.validEmail();
+		backPlans = planReady.oneMonthPlan();
+		gotit = backPlans.backToPlan();
+		chooseplan = gotit.goIt();
+		chooseplan.choosePlan();
+	}
+	@Test(groups="negative")
+	public void userRegistrationMenVegNegCm() throws Throwable {
+		gender = page.landingPage();
+		type = gender.genderMen();
+		desiredBody = type.choosebodyTypeEx();
+		achieve = desiredBody.bodytypeYouWantCut();
+		conti = achieve.wantToAchieve();
+		zone = conti.continuePage();
+		happy = zone.yourTargetZone();
+		mealpreparation = happy.lastHappyWithYourWeight();
+		meat = mealpreparation.mealPreparationEachDay();
+		veggies = meat.vegetarian();
+		foodItems = veggies.veggies();
+		activeAre = foodItems.veget();
+		yourDay = activeAre.iOftenGoForWalk();
+		answers = yourDay.iSpendPrettyMuchTimeOnFoot();
+		answers.qualitySleep();
+		answers.atNight();
+		answers.saltIntakeIsMore();
+		answers.softDrinks();
+		extraWeight = answers.continueButton();
+		disease = extraWeight.justWant();
+		tall=disease.noDisease();
+		currentWt = tall.negheightCmPreDef();
+		targetWeight = currentWt.weightKG();
+		age = targetWeight.tarWeightKG();
+		wellness = age.yourAge();
+		occasions = wellness.overallWellness();
+		date = occasions.wedding();
+		plan = date.skipThisQuestion();
+		week = plan.oneAndOnlyPlan();
+		week = plan.oneAndOnlyPlan();
+		planReady = week.validEmail();
+		backPlans = planReady.oneMonthPlan();
+		gotit = backPlans.backToPlan();
+		chooseplan = gotit.goIt();
+		chooseplan.choosePlan();
+	}
+	@Test(groups="negative")
+	public void userRegistrationMenVeganNegFt() throws Throwable {
+		gender = page.landingPage();
+		type = gender.genderMen();
+		desiredBody = type.choosebodyTypeAv();
+		achieve = desiredBody.bodytypeYouWantFit();
+		conti = achieve.wantToAchieve();
+		zone = conti.continuePage();
+		happy = zone.yourTargetZone();
+		mealpreparation = happy.lastHappyWithYourWeight();
+		meat = mealpreparation.mealPreparationEachDay();
+		veggies = meat.vegan();
+		foodItems = veggies.veggies();
+		activeAre = foodItems.vega();
+		yourDay = activeAre.iExerciseTimesWeek();
+		answers = yourDay.atWorkplace();
+		extraWeight = answers.noneOfTheAbove();
+		disease = extraWeight.justWant();
+		tall=disease.disease();
+		currentWt = tall.negativeHeightTesFt();
+		targetWeight = currentWt.weightKG();
+		age = targetWeight.tarWeightKG();
+		wellness = age.yourAge();
+		occasions = wellness.overallWellness();
+		date=occasions.sportingEvent();
+		plan = date.skipThisQuestion();
+		week = plan.oneAndOnlyPlan();
+		week = plan.oneAndOnlyPlan();
+		planReady = week.validEmail();
+		backPlans = planReady.oneMonthPlan();
+		gotit = backPlans.backToPlan();
+		chooseplan = gotit.goIt();
+		chooseplan.choosePlan();
+	}
+	@Test(groups="negative")
+	public void userRegistrationMenVegEatAllNegativeWeightLb() throws Throwable {
+		gender = page.landingPage();
+		type = gender.genderMen();
+		desiredBody = type.choosebodyTypeEx();
+		achieve = desiredBody.bodytypeYouWantCut();
+		conti = achieve.wantToAchieve();
+		zone = conti.continuePage();
+		happy = zone.yourTargetZone();
+		mealpreparation = happy.lastHappyWithYourWeight();
+		meat = mealpreparation.mealPreparationEachDay();
+		veggies = meat.vegetarian();
+		foodItems = veggies.eatAllVeggies();
+		activeAre = foodItems.eatAll();
+		yourDay = activeAre.iOftenGoForWalk();
+		answers = yourDay.iSpendPrettyMuchTimeOnFoot();
+		answers.qualitySleep();
+		answers.atNight();
+		answers.saltIntakeIsMore();
+		answers.softDrinks();
+		extraWeight = answers.continueButton();
+		disease = extraWeight.justWant();
+		tall=disease.noDisease();
+		currentWt = tall.heightCm();
+		targetWeight = currentWt.NegativeTestweightLbs();
+		age = targetWeight.negativePerfectWeightLbs();
+		wellness = age.yourAge();
+		occasions = wellness.overallWellness();
+		date = occasions.wedding();
+		plan = date.skipThisQuestion();
+		week = plan.oneAndOnlyPlan();
+		week = plan.oneAndOnlyPlan();
+		planReady = week.validEmail();
+		backPlans = planReady.oneMonthPlan();
+		gotit = backPlans.backToPlan();
+		chooseplan = gotit.goIt();
+		chooseplan.choosePlan();
+	}
+	@Test(groups="negative")
+	public void registrationMenNonVegNegativeWeightKg() throws Throwable {
+		gender = page.landingPage();
+		type = gender.genderMen();
+		desiredBody = type.choosebodyTypeAv();
+		achieve = desiredBody.bodytypeYouWantCut();
+		conti = achieve.wantToAchieve();
+		zone = conti.continuePage();
+		happy = zone.yourTargetZone();
+		mealpreparation = happy.lastHappyWithYourWeight();
+		meat = mealpreparation.mealPreparationEachDay();
+		veggies = meat.meat();
+		foodItems = veggies.veggies();
+		activeAre = foodItems.non_veg();
+		yourDay = activeAre.almostNoPhysicalActivity();
+		answers = yourDay.atWorkplace();
+		answers.qualitySleep();
+		answers.atNight();
+		answers.saltIntakeIsMore();
+		answers.quitEatingSweets();
+		answers.softDrinks();
+		extraWeight = answers.continueButton();
+		disease = extraWeight.justWant();
+		tall=disease.noDisease();
+		currentWt = tall.withoutFakerheightCm();
+		targetWeight = currentWt.negativeValueweightKG();
+		age = targetWeight.negativePerfectWeightKG();
+		wellness = age.withoutFakeryourAge();
+		occasions = wellness.overallWellness();
+		date = occasions.vacation();
+		plan = date.skipThisQuestion();
+		week = plan.oneAndOnlyPlan();
+		week = plan.oneAndOnlyPlan();
+		planReady = week.validEmail();
+		backPlans = planReady.sixMonthPlan();
+		gotit = backPlans.backToPlan();
+		chooseplan = gotit.goIt();
+		chooseplan.choosePlan();
+	}
+	@Test(groups = "negative")
+	public void InvalidWeihgtKgvegan() throws InterruptedException {
+		gender = page.landingPage();
+		type = gender.genderMen();
+		desiredBody = type.choosebodyTypeEx();
+		achieve = desiredBody.bodytypeYouWantFit();
+		conti = achieve.wantToAchieve();
+		zone = conti.continuePage();
+		happy = zone.yourTargetZone();
+		mealpreparation = happy.lastHappyWithYourWeight();
+		meat = mealpreparation.mealPreparationEachDay();
+		veggies = meat.vegan();
+		foodItems = veggies.veggies();
+		activeAre = foodItems.vega();
+		yourDay = activeAre.iExerciseTimesWeek();
+		answers = yourDay.atWorkplace();
+		extraWeight = answers.noneOfTheAbove();
+		disease = extraWeight.justWant();
+		tall=disease.disease();
+		currentWt = tall.heightFeet();
+		targetWeight = currentWt.invalidCurrrWeightKG();
+		age = targetWeight.invalidPerfectWeightKG();
+		wellness = age.yourAge();
+		occasions = wellness.overallWellness();
+		plan = occasions.No();
+		week = plan.oneAndOnlyPlan();
+		week = plan.oneAndOnlyPlan();
+		planReady = week.validEmail();
+		backPlans = planReady.oneMonthPlan();
+		gotit = backPlans.backToPlan();
+		chooseplan = gotit.goIt();
+		chooseplan.choosePlan();
+
+	}
+	@Test(groups="negative")
+	public void invalidWeightLbVegEatAll() throws Throwable {
+		gender = page.landingPage();
+		type = gender.genderMen();
+		desiredBody = type.choosebodyTypeAv();
+		achieve = desiredBody.bodytypeYouWantBulk();
+		conti = achieve.wantToAchieve();
+		zone = conti.continuePage();
+		happy = zone.yourTargetZone();
+		mealpreparation = happy.lastHappyWithYourWeight();
+		meat = mealpreparation.mealPreparationEachDay();
+		veggies = meat.eatAllMeat();
+		foodItems = veggies.eatAllVeggies();
+		activeAre = foodItems.eatAll();
+		yourDay = activeAre.almostNoPhysicalActivity();
+		answers = yourDay.atWorkplace();
+		answers.qualitySleep();
+		answers.atNight();
+		answers.saltIntakeIsMore();
+		answers.quitEatingSweets();
+		answers.softDrinks();
+		extraWeight = answers.continueButton();
+		disease = extraWeight.justWant();
+		tall=disease.disease();
+		currentWt = tall.heightCm();
+		targetWeight = currentWt.invalidCurrweightLbs();
+		age = targetWeight.invalidPerfectWeightLbs();
+		wellness = age.yourAge();
+		occasions = wellness.overallWellness();
+		date = occasions.vacation();
+		plan = date.skipThisQuestion();
+		week = plan.oneAndOnlyPlan();
+		planReady = week.validEmail();
+		backPlans = planReady.oneMonthPlan();
+		gotit = backPlans.backToPlan();
+		chooseplan = gotit.goIt();
+		chooseplan.choosePlan();
+	}
+
+
 }

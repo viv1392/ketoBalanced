@@ -5,19 +5,31 @@
     <listener class-name="utilities.KetoListnersWeb"/>
   </listeners>
   <test parallel="none" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="eatAll"/>
+        <include name="functionality"/>
+      </run>
+    </groups>
     <classes>
       <class name="userRegistrationTest.UserReWomenTest">
         <methods>
+          <include name="userRegistrationWomenNonVegEatAll"/>
+          <include name="userRegistrationWoMenVeg"/>
           <include name="tearDown"/>
+          <include name="userRegistrationWomenVegEatAll"/>
           <include name="landingPageUrl"/>
-          <include name="userRegistrationWoMenVegwitoutFaker"/>
+          <include name="userRegistrationWoMenNonVeg"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReWomenTest -->
       <class name="userRegistrationTest.UserReMenTest">
         <methods>
           <include name="tearDown"/>
           <include name="landingPageUrl"/>
-          <include name="userWithBlankdEmaiIdMen"/>
+          <include name="userRegistrationMenNonVeg"/>
+          <include name="userRegistrationMenNonVegEatAll"/>
+          <include name="userRegistrationMenVegEatAll"/>
+          <include name="userRegistrationMenVeg"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReMenTest -->
     </classes>

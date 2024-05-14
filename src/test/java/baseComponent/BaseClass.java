@@ -51,6 +51,6 @@ public class BaseClass extends ReadConfigFile {
 	@AfterMethod(alwaysRun=true)
 	public void tearDown() {
 		driver.manage().deleteAllCookies();
-		driver.quit();
+	    driver.quit();
 	}
 }

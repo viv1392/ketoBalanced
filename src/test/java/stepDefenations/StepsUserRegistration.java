@@ -20,7 +20,7 @@ import commonPages.GotIt;
 import commonPages.HowActiveAreYou;
 import commonPages.HowTallAreYou;
 import commonPages.HowYouSpendYourDay;
-import commonPages.ItIsPossibleToSelectMultipleAnswers;
+import commonPages.PickYourDailyHabitsAndLifestylePreferences;
 import commonPages.LandingPage;
 import commonPages.LastHappyWithYourWeight;
 import commonPages.MealPreparationEachDay;
@@ -58,7 +58,7 @@ public class StepsUserRegistration extends BaseClass {
 	OtherFoodItems otherFood;
 	HowActiveAreYou active;
 	HowYouSpendYourDay day;
-	ItIsPossibleToSelectMultipleAnswers multi;
+	PickYourDailyHabitsAndLifestylePreferences multi;
 	ShedSomeExtraWeight extraWeight;
 	DiseaseClass disease;
 	HowTallAreYou tall;
