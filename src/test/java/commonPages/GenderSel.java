@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class GenderSel {
+import utilities.UtilisClass;
+
+public class GenderSel extends UtilisClass {
 	WebDriver driver;
 	public ChooseBodyType bodyType;
 	public GenderSel(WebDriver driver) {
@@ -17,11 +19,13 @@ public class GenderSel {
 	@FindBy(xpath="//p[text()='Woman']")
 	WebElement women;
 	public ChooseBodyType genderMen() {
+		//scriptExecutor(men,driver);
 		men.click();
 	    bodyType=new ChooseBodyType(driver);
 	    return bodyType;
 	}
 	public ChooseBodyType genderWomen() {
+		//scriptExecutor(women,driver);
 		women.click();
 		 bodyType=new ChooseBodyType(driver);
 		    return bodyType;

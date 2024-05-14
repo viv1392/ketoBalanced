@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -40,5 +41,10 @@ public class UtilisClass {
 			e.printStackTrace();
 		}
 		return destinationScreenshotPath;
+	}
+	public void scriptExecutor(WebElement ele ,WebDriver driver) {
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", ele);
+		
 	}
 }

@@ -22,8 +22,9 @@ public class LandingPage extends UtilisClass{
 	
     public GenderSel landingPage() throws InterruptedException {
     	Thread.sleep(2000);
-    	actionClass(driver,0,200);
-    	ele.click();
+    	//actionClass(driver,0,200);
+    	scriptExecutor(ele,driver);
+    	//ele.click();
     	gender=new  GenderSel(driver);
     	return gender;
     	 

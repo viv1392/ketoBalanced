@@ -31,37 +31,51 @@ public class OtherFoodItems extends UtilisClass {
 	@FindBy(linkText="Continue")
 	WebElement ele;
 	public HowActiveAreYou non_veg() {
-		ele1.click();
-		ele2.click();
-		actionClass(driver,0,800);
-		ele5.click();
-		ele.click();
+		scriptExecutor(ele1,driver);
+		//ele1.click();
+		//actionClass(driver,0,800);
+		scriptExecutor(ele2,driver);
+		//ele2.click();
+		scriptExecutor(ele5,driver);
+		//ele5.click();
+		scriptExecutor(ele,driver);
+		//ele.click();
 		activeAre=new  HowActiveAreYou(driver);
 		return activeAre;
 	}
 	public HowActiveAreYou veget() throws InterruptedException {
-		ele2.click();
+		scriptExecutor(ele2,driver);
+		//ele2.click();
 		Thread.sleep(2000);
-		actionClass(driver,0,800);
-		ele4.click();
-		ele5.click();
-		ele.click();
+		//actionClass(driver,0,1000);
+		scriptExecutor(ele4,driver);
+		//ele4.click();
+		scriptExecutor(ele5,driver);
+		//ele5.click();
+		scriptExecutor(ele,driver);
+		//ele.click();
 		activeAre=new  HowActiveAreYou(driver);
 		return activeAre;
 	}
 	public HowActiveAreYou vega() throws InterruptedException {
 		Thread.sleep(2000);
-		actionClass(driver,0,800);
-		ele4.click();
-		ele5.click();
-		ele6.click();
-		ele.click();
+		//actionClass(driver,0,800);
+		scriptExecutor(ele4,driver);
+		//ele4.click();
+		scriptExecutor(ele5,driver);
+		//ele5.click();
+		scriptExecutor(ele6,driver);
+		//ele6.click();
+		scriptExecutor(ele,driver);
+		//ele.click();
 		activeAre=new  HowActiveAreYou(driver);
 		return activeAre;
 	}
 	public HowActiveAreYou eatAll() {
-		ele7.click();
-		ele.click();
+		scriptExecutor(ele7,driver);
+		//ele7.click();
+		scriptExecutor(ele,driver);
+		//ele.click();
 		activeAre=new  HowActiveAreYou(driver);
 		return activeAre;
 	}
