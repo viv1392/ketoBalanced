@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]">
-  <test parallel="none" name="Default test(failed)">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utilities.KetoListnersWeb"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
     <classes>
+      <class name="userRegistrationTest.UserReMenTest">
+        <methods>
+          <include name="withoutFakeruserRegistrationMenNonVeg"/>
+          <include name="invalidWeightLbVegEatAll"/>
+          <include name="tearDown"/>
+          <include name="InvalidWeihgtKgvegan"/>
+          <include name="landingPageUrl"/>
+          <include name="userRegistrationMenVegNegCm"/>
+          <include name="witoutFakeruserRegistrationMenVegan"/>
+          <include name="userRegistrationMenVeganNegFt"/>
+          <include name="userWithBlankdEmaiIdMen"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReMenTest -->
       <class name="userRegistrationTest.UserReWomenTest">
         <methods>
+          <include name="userRegistrationWomenVeganNegFtNegative"/>
+          <include name="InvalidWeihgtKgveganWomen"/>
           <include name="tearDown"/>
           <include name="landingPageUrl"/>
+          <include name="userRegistratioWomenVegNegCm"/>
+          <include name="userRegistrationWoMenVegwitoutFaker"/>
           <include name="invalidWeightLbVegEatAllWomen"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReWomenTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -5,33 +5,31 @@
     <listener class-name="utilities.KetoListnersWeb"/>
   </listeners>
   <test parallel="none" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="eatAll"/>
-        <include name="functionality"/>
-      </run>
-    </groups>
     <classes>
-      <class name="userRegistrationTest.UserReWomenTest">
-        <methods>
-          <include name="userRegistrationWomenNonVegEatAll"/>
-          <include name="userRegistrationWoMenVeg"/>
-          <include name="tearDown"/>
-          <include name="userRegistrationWomenVegEatAll"/>
-          <include name="landingPageUrl"/>
-          <include name="userRegistrationWoMenNonVeg"/>
-        </methods>
-      </class> <!-- userRegistrationTest.UserReWomenTest -->
       <class name="userRegistrationTest.UserReMenTest">
         <methods>
+          <include name="withoutFakeruserRegistrationMenNonVeg"/>
+          <include name="invalidWeightLbVegEatAll"/>
           <include name="tearDown"/>
+          <include name="InvalidWeihgtKgvegan"/>
           <include name="landingPageUrl"/>
-          <include name="userRegistrationMenNonVeg"/>
-          <include name="userRegistrationMenNonVegEatAll"/>
-          <include name="userRegistrationMenVegEatAll"/>
-          <include name="userRegistrationMenVeg"/>
+          <include name="userRegistrationMenVegNegCm"/>
+          <include name="witoutFakeruserRegistrationMenVegan"/>
+          <include name="userRegistrationMenVeganNegFt"/>
+          <include name="userWithBlankdEmaiIdMen"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReMenTest -->
+      <class name="userRegistrationTest.UserReWomenTest">
+        <methods>
+          <include name="userRegistrationWomenVeganNegFtNegative"/>
+          <include name="InvalidWeihgtKgveganWomen"/>
+          <include name="tearDown"/>
+          <include name="landingPageUrl"/>
+          <include name="userRegistratioWomenVegNegCm"/>
+          <include name="userRegistrationWoMenVegwitoutFaker"/>
+          <include name="invalidWeightLbVegEatAllWomen"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReWomenTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

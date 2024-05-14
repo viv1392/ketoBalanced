@@ -27,18 +27,24 @@ public class Veggies extends UtilisClass{
 	@FindBy(linkText="Continue")
 	WebElement ele;
 	public OtherFoodItems veggies() {
-		ele1.click();
-		actionClass(driver,0,1000);
-		ele2.click();
-		ele3.click();
-		ele.click();
+		scriptExecutor(ele1,driver);
+		//ele1.click();
+		//actionClass(driver,0,1000);
+		scriptExecutor(ele2,driver);
+		//ele2.click();
+		scriptExecutor(ele3,driver);
+		//ele3.click();
+		scriptExecutor(ele,driver);
+		//ele.click();
 		foodItems=new OtherFoodItems(driver);
 		return foodItems;
 		
 	}
 	public OtherFoodItems eatAllVeggies() {
-		ele5.click();
-		ele.click();
+		scriptExecutor(ele5,driver);
+		//ele5.click();
+		scriptExecutor(ele,driver);
+		//ele.click();
 		foodItems=new OtherFoodItems(driver);
 		return foodItems;
 	}

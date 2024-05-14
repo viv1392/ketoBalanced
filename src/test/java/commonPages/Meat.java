@@ -37,31 +37,41 @@ public class Meat extends UtilisClass {
 	
 	public Veggies meat() throws InterruptedException {
 		Thread.sleep(1000);
-		actionClass(driver,0,900);
-		ele1.click();
-		ele3.click();
-		ele5.click();
+		scriptExecutor(ele1,driver);
+		//ele1.click();
+		scriptExecutor(ele3,driver);
+		//ele3.click();
+		//actionClass(driver,0,400);
+		scriptExecutor(ele5,driver);
+		//ele5.click();
+		scriptExecutor(ele,driver);
 		ele.click();
 		veggies= new Veggies(driver);
 		return veggies;
 	}
 	public Veggies vegetarian() throws InterruptedException {
 		Thread.sleep(1000);
-		ele7.click();
-		ele.click();
+		scriptExecutor(ele7,driver);
+		//ele7.click();
+		scriptExecutor(ele,driver);
+		//ele.click();
 		veggies= new Veggies(driver);
 		return veggies;
 	}
 	public Veggies vegan() throws InterruptedException {
 		Thread.sleep(1000);
-		ele8.click();
-		ele.click();
+		scriptExecutor(ele8,driver);
+		//ele8.click();
+		scriptExecutor(ele,driver);
+		//ele.click();
 		veggies= new Veggies(driver);
 		return veggies;
 	}
 	public Veggies eatAllMeat() {
-		ele9.click();
-		ele.click();
+		scriptExecutor(ele9,driver);
+		//ele9.click();
+		scriptExecutor(ele,driver);
+		//ele.click();
 		veggies= new Veggies(driver);
 		return veggies;
 	}
