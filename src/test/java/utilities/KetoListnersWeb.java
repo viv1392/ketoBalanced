@@ -74,7 +74,7 @@ public class KetoListnersWeb implements ITestListener {
 	@Override
 	public void onFinish(ITestContext context) {
 		reports.flush();
-		File extentReport = new File(System.getProperty("user.dir") + "\\ExtentReport\\extent.html");
+		File extentReport = new File(System.getProperty("user.dir") + "//ExtentReport//extent.html");
 		try {
 			Desktop.getDesktop().browse(extentReport.toURI());
 		} catch (IOException e) {

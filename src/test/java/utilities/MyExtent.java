@@ -13,7 +13,7 @@ public class MyExtent {
 	public static ExtentReports reports;
 	
 	public static ExtentReports repExtent() {
-		File filepath =new File(System.getProperty("user.dir")+"\\ExtentReport\\extent.html");
+		File filepath =new File(System.getProperty("user.dir")+"//ExtentReport//extent.html");
 		sparkReporter=new ExtentSparkReporter(filepath);
 		sparkReporter.config().setReportName("ketoBalanced");
 		sparkReporter.config().setDocumentTitle("ketoBalancedTestReport");
@@ -22,7 +22,7 @@ public class MyExtent {
 		
 		reports=new ExtentReports();
 		reports.attachReporter(sparkReporter);
-		File fisProp=new File(System.getProperty("user.dir")+"\\Configuration\\global.properties");
+		File fisProp=new File(System.getProperty("user.dir")+"//Configuration//global.properties");
 		Properties prop=new Properties();
 		try {
         FileInputStream fis=new FileInputStream(fisProp);

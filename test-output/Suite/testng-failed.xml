@@ -8,13 +8,13 @@
     <classes>
       <class name="userRegistrationTest.UserReMenTest">
         <methods>
-          <include name="withoutFakeruserRegistrationMenNonVeg"/>
           <include name="invalidWeightLbVegEatAll"/>
           <include name="tearDown"/>
           <include name="InvalidWeihgtKgvegan"/>
           <include name="landingPageUrl"/>
+          <include name="userRegistrationMenVegEatAllNegativeWeightLb"/>
           <include name="userRegistrationMenVegNegCm"/>
-          <include name="witoutFakeruserRegistrationMenVegan"/>
+          <include name="userRegistrationMenNonVegNegHeightCmPRE"/>
           <include name="userRegistrationMenVeganNegFt"/>
           <include name="userWithBlankdEmaiIdMen"/>
         </methods>

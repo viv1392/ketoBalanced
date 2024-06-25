@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ReadConfigFile {
-	String path = System.getProperty("user.dir") + "\\Configuration\\global.properties";
+	String path = System.getProperty("user.dir") + "//Configuration//global.properties";
 	Properties prop;
 	FileInputStream fis;
 
